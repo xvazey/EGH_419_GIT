@@ -16,5 +16,222 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{energygovstandby}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b5a84edc9bbf0c4be505dd1100ebb240}{%
+           family={Energy},
+           familyi={E\bibinitperiod},
+           given={U.S.\bibnamedelimi Department},
+           giveni={U\bibinitperiod\bibinitdelim D\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \strng{fullhash}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \strng{fullhashraw}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \strng{bibnamehash}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \strng{authorbibnamehash}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \strng{authornamehash}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \strng{authorfullhash}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \strng{authorfullhashraw}{b5a84edc9bbf0c4be505dd1100ebb240}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Explains standby power consumption from household electronics and methods to reduce wasted energy}
+      \field{title}{Standby Power and Energy Vampires}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.energy.gov/energysaver/standby-power
+      \endverb
+      \verb{url}
+      \verb https://www.energy.gov/energysaver/standby-power
+      \endverb
+    \endentry
+    \entry{esp32productpage}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1d5d0040be4721ebd66cd10ec68502c}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Espressif},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhashraw}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{bibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authorbibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authornamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authorfullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authorfullhashraw}{b1d5d0040be4721ebd66cd10ec68502c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Official product page describing the ESP32 microcontroller family, including integrated Wi-Fi and Bluetooth connectivity, processing capability, and operating temperature range}
+      \field{title}{ESP32 Wi-Fi \& Bluetooth SoC}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.espressif.com/en/products/socs/esp32
+      \endverb
+      \verb{url}
+      \verb https://www.espressif.com/en/products/socs/esp32
+      \endverb
+    \endentry
+    \entry{acs712}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=d6c314f4693cf194c63c1ecf5b9957da}{%
+           family={Microsystems},
+           familyi={M\bibinitperiod},
+           given={Allegro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6c314f4693cf194c63c1ecf5b9957da}
+      \strng{fullhash}{d6c314f4693cf194c63c1ecf5b9957da}
+      \strng{fullhashraw}{d6c314f4693cf194c63c1ecf5b9957da}
+      \strng{bibnamehash}{d6c314f4693cf194c63c1ecf5b9957da}
+      \strng{authorbibnamehash}{d6c314f4693cf194c63c1ecf5b9957da}
+      \strng{authornamehash}{d6c314f4693cf194c63c1ecf5b9957da}
+      \strng{authorfullhash}{d6c314f4693cf194c63c1ecf5b9957da}
+      \strng{authorfullhashraw}{d6c314f4693cf194c63c1ecf5b9957da}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 17 April 2026}
+      \field{title}{ACS712 Fully Integrated Hall-Effect Current Sensor Datasheet}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.allegromicro.com
+      \endverb
+      \verb{url}
+      \verb https://www.allegromicro.com
+      \endverb
+    \endentry
+    \entry{chatgptfigure2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{AI-generated image created for report use on 17 April 2026}
+      \field{title}{System Architecture Figure Generated Using ChatGPT}
+      \field{year}{2026}
+    \endentry
+    \entry{songlerelay}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=eda9a728607fb95cca57e5d8bb23b9d5}{%
+           family={Ningbo\bibnamedelimb Songle\bibnamedelimb Relay\bibnamedelima Co.},
+           familyi={N\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ltd.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \strng{fullhash}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \strng{fullhashraw}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \strng{bibnamehash}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \strng{authorbibnamehash}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \strng{authornamehash}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \strng{authorfullhash}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \strng{authorfullhashraw}{eda9a728607fb95cca57e5d8bb23b9d5}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 17 April 2026}
+      \field{title}{SRD Series Power Relay Datasheet}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.datasheetcafe.com/srd-05vdc-sl-c-datasheet-pdf/
+      \endverb
+      \verb{url}
+      \verb https://www.datasheetcafe.com/srd-05vdc-sl-c-datasheet-pdf/
+      \endverb
+    \endentry
+    \entry{omronssr}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=09ef2952214f48a1291d7b296fcdbb7c}{%
+           family={Corporation},
+           familyi={C\bibinitperiod},
+           given={Omron},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{09ef2952214f48a1291d7b296fcdbb7c}
+      \strng{fullhash}{09ef2952214f48a1291d7b296fcdbb7c}
+      \strng{fullhashraw}{09ef2952214f48a1291d7b296fcdbb7c}
+      \strng{bibnamehash}{09ef2952214f48a1291d7b296fcdbb7c}
+      \strng{authorbibnamehash}{09ef2952214f48a1291d7b296fcdbb7c}
+      \strng{authornamehash}{09ef2952214f48a1291d7b296fcdbb7c}
+      \strng{authorfullhash}{09ef2952214f48a1291d7b296fcdbb7c}
+      \strng{authorfullhashraw}{09ef2952214f48a1291d7b296fcdbb7c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Solid state relay operating characteristics, accessed 17 April 2026}
+      \field{title}{G3MB Solid State Relay Datasheet}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://components.omron.com
+      \endverb
+      \verb{url}
+      \verb https://components.omron.com
+      \endverb
+    \endentry
+    \entry{tplinkplug}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ed0fa7b73719541b4d3f7283dcac219}{%
+           family={Technologies},
+           familyi={T\bibinitperiod},
+           given={TP-Link},
+           giveni={T\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ed0fa7b73719541b4d3f7283dcac219}
+      \strng{fullhash}{9ed0fa7b73719541b4d3f7283dcac219}
+      \strng{fullhashraw}{9ed0fa7b73719541b4d3f7283dcac219}
+      \strng{bibnamehash}{9ed0fa7b73719541b4d3f7283dcac219}
+      \strng{authorbibnamehash}{9ed0fa7b73719541b4d3f7283dcac219}
+      \strng{authornamehash}{9ed0fa7b73719541b4d3f7283dcac219}
+      \strng{authorfullhash}{9ed0fa7b73719541b4d3f7283dcac219}
+      \strng{authorfullhashraw}{9ed0fa7b73719541b4d3f7283dcac219}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consumer smart plug product specifications, accessed 17 April 2026}
+      \field{title}{TP-Link Smart Plug Product Specifications}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.tp-link.com
+      \endverb
+      \verb{url}
+      \verb https://www.tp-link.com
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

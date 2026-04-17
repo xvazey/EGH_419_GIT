@@ -10,7 +10,7 @@
 \usepackage{xcolor}                                     % Colors
 \usepackage{titlesec}                                   % Section formatting
 \usepackage{pdfpages}                                   % PDF inclusion
-\usepackage[style=apa]{biblatex}                        % Bibliography
+\usepackage[style=ieee]{biblatex}                        % Bibliography
 \usepackage[hidelinks]{hyperref}                        % Links
 \usepackage{siunitx}                                    % SI units
 \usepackage[version=4]{mhchem}                          % Chemical formulae
@@ -86,7 +86,7 @@
 \newtheorem{definition}{Definition}
 
 % Custom commands for document information
-\newcommand{\TitleName}{Monitoring Toilet Usage with Sensors}
+\newcommand{\TitleName}{Business Plan and Engineering Design Progress Report}
 \newcommand{\unitTime}{Semester 1, 2026}
 \newcommand{\unitName}{EGH419: Advanced Design and Entrepreneurship}
 \newcommand{\documentAuthors}{Xanthea Vazey: n11525762}
@@ -127,68 +127,234 @@
 % -------------------------------------------------
 
 
-\section{Problem Statement}
-\subsection{Problem Statement}
+\section{Product Name}
 
-Remote sanitation infrastructure is an ongoing operational challenge for land managers responsible for national parks and remote recreation areas. Increasing visitation to protected areas places additional pressure on existing toilet facilities, particularly those located in remote environments where conventional sewer infrastructure is unavailable.
+The proposed product developed by Group 40 is titled \textbf{PowerStake}. PowerStake is a smart power management system designed to help households reduce electricity costs through appliance-level monitoring, automated outlet control, predictive insights, and a user-friendly mobile dashboard. The concept combines affordable hardware with intelligent software to reduce standby energy waste, improve convenience, and identify potential appliance faults before failure occurs.
 
-\subsubsection{Problem Drivers}
-
-\begin{itemize}
-    \item National parks receive millions of visitors annually, resulting in significant demand for sanitation infrastructure.
-    \item Many toilet facilities in remote recreation areas are ``drop toilets'' or pit systems that operate without connection to sewer or wastewater treatment networks.
-    \item Waste removal and servicing of these toilets often requires specialised logistics such as long-distance transport or helicopter access, significantly increasing operational costs.
-    \item Park managers typically rely on scheduled inspections or manual reporting to determine when toilets require servicing, making it difficult to accurately monitor when systems are approaching capacity.
-\end{itemize}
-
-\subsubsection{Supporting Evidence}
+The Group 40 project team is structured using functional roles to allocate responsibilities across business, technical, and design tasks. Team members and primary subsystem responsibilities are listed below:
 
 \begin{itemize}
-    \item Remote regions of the Australian Alps National Parks contain more than 200 toilet installations servicing hiking and camping areas.
-    \item Waste from high-use remote toilets may require helicopter extraction when pits or storage systems reach capacity.
-    \item Poorly managed human waste in outdoor recreation environments can contribute to soil contamination, water pollution, and potential disease transmission.
+    \item \textbf{Handler - Erin Keur:} Project coordination and power usage reduction strategy.
+    
+    \item \textbf{Hustler - Ethan Bailey:} Commercial strategy, customer value proposition, and mobile dashboard development.
+    
+    \item \textbf{Hacker - Andrew Pollard:} Hardware development including power measurement and supply systems.
+    
+    \item \textbf{Hipster - Xanthea Vazey:} User experience, industrial design, and automatic power-off scheduling functions.
+    
+    \item \textbf{Helper - Jeremy Khin Zaw:} Cross-functional support across all project areas, with primary responsibility for fault detection systems.
 \end{itemize}
 
-\subsubsection{Engineering Opportunity}
+This team structure enables parallel development of the core PowerStake subsystems while maintaining shared ownership of prototype integration and validation activities.
 
-These challenges present an opportunity for the development of a low-power remote monitoring system capable of measuring toilet fill levels and transmitting status data to park managers. Such a system would allow maintenance teams to service facilities only when required, reducing operational costs, preventing overflow events, and improving environmental protection in remote recreation areas.
-\section{Resources}
-\begin{itemize}
-    \item \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC7586839/}
-    \item \url{https://www.nepc.gov.au/sites/default/files/2022-09/regional-remote-case-studies.pdf}
-    \item \url{https://www.environment.nsw.gov.au/topics/parks-reserves-and-protected-areas/park-management/npws-park-management/pollution-monitoring}
-    \item \url{https://parks.tas.gov.au/Documents/Appendix%20D%20-%20Onsite%20Wastewater%20Assessment%20%28Lake%20Adelaide%29.pdf}
-    \item \url{https://www.abc.net.au/news/2023-12-24/waterless-outback-toilet-trial-sanitation-tourism-possibilities/103225172}
-    \item \url{https://theaustralianalpsnationalparks.org/wp-content/uploads/2023/08/ALPS-eblast-94.pdf}
-    \item \url{https://theaustralianalpsnationalparks.org/wp-content/uploads/2017/07/toilet-report-2001.pdf}
-    \item toilet map: \url{https://www.continence.org.au/national-public-toilet-map?utm_source=chatgpt.com} around 23000 toilets aus wide \url{https://toiletmap.gov.au/about}
-    \subitem but i think that is all toilets over aus... maybe 
-    \item over 200 toilets in the australian alps national parks \url{https://theaustralianalpsnationalparks.org/wp-content/uploads/2017/07/toilet-report-2001.pdf} which will need pumping out or replacement when full 
-    \item in NZ there are over 2000 toilets in remote areas \url{https://www.doc.govt.nz/globalassets/documents/getting-involved/volunteer/walking-track-maintenance/walking-track-maintenance-toilet-report.pdf}
+% \subsection{Product Overview}
 
-\end{itemize}
+% PowerStake is a smart household energy management system designed to reduce unnecessary electricity costs through appliance-level monitoring, automated control, and user-friendly 
+% recommendations. The primary problem addressed is rising household electricity costs caused by standby power consumption, inefficient appliance usage, and a lack of actionable 
+% energy insights. Many users understand that electricity is expensive but do not have the time or motivation to manually switch devices off each day  \cite{smartplugmarket}. The intended end-user is a 
+% cost-conscious household occupant or individual seeking lower bills through simple automation rather than technical energy management. 
 
-\section{Similar Products}
-\begin{itemize}
-    \item Ultrasonic smart bin monitoring system
-    \item example company : Enevo or bigbelly
-\end{itemize}
-Technology used:
+\section{Target TRL}
 
-ultrasonic fill-level sensors, IoT telemetry (LoRa, NB-IoT, satellite) ,predictive waste collection
-These systems measure how full a bin is and optimise servicing.
+The current readiness level of the Automatic Power-off Scheduling subsystem is estimated at TRL 2. At present, the concept has been defined and supported through 
+preliminary research into existing technologies such as smart plugs, programmable timers, relay modules, and mobile-controlled outlet systems. However, no integrated 
+prototype has yet been constructed or experimentally validated by the project team.
 
-\subsection{Other things to note}
-current methods of getting waste out is helicopter, good to document this and how they know when to change it. then look at cost estimates etc.. 
-\begin{itemize}
-    \item The strongest justification for your project would be numbers like:
-    \item how often remote toilets are serviced
-    \item cost of helicopter waste removal
-    \item examples of toilets overflowing or being closed
-    \item documented helicopter waste removal operations
-    \item maintenance cost estimates
-    \item visitor-to-toilet ratios in national parks
-\end{itemize}
+Given the remaining project schedule, the realistic target for this assessment is TRL 3 progressing toward early TRL 4. This would involve developing and 
+demonstrating a proof-of-concept prototype using commercially available microcontrollers (e.g. ESP32), relay modules, and basic power sensing inputs. Initial 
+validation may be performed on low-voltage test circuits or simulated appliance loads rather than direct 240 V mains systems, reducing safety risk and development 
+complexity.
+
+A successful prototype outcome would demonstrate the core subsystem functions of detecting inactive loads, applying simple shutoff logic, manually restoring power,
+ and communicating with a mobile dashboard interface. Supporting work may also include enclosure concepts developed through CAD modelling and early physical packaging 
+ studies for future iterations.
+
+Achieving a full TRL 4 mains-ready prototype within the current timeframe is considered ambitious due to hardware procurement, electrical safety constraints, and 
+software integration requirements. A more practical near-term pathway would be completion of a validated bench-scale prototype during this unit, followed by future 
+progression to TRL 4-5 through controlled household testing across common appliances such as televisions, chargers, gaming consoles, and kitchen devices.
+
+\section{Problem Validation and Engineering Design}
+\subsection{Customer Needs}
+Many households waste electricity through standby loads from televisions, chargers, gaming consoles, printers and kitchen appliances \cite{energygovstandby}. While individual standby loads are small, 
+cumulative yearly costs are meaningful. Existing timer switches require manual programming and do not adapt to user behaviour. Most smart plugs offer remote switching but still 
+depend on active user involvement. Customers require a solution that automatically reduces unnecessary consumption while maintaining convenience. The system must be simple to use, 
+safe, and allow manual override when required.
+
+\subsection{High-Level Objective (HLO-4)}
+
+The subsystem shall automatically recommend or execute outlet shutoff schedules that reduce standby energy consumption by at least 40\% during controlled testing, while allowing manual user override within 2 seconds.
+
+\section{System Requirements}
+
+\subsection{Physical Requirements}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2cm}|p{10.5cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement} & \textbf{HLO} \\ \hline
+PH-01 & Subsystem shall control a minimum of four independent outlets. & HLO-4 \\ \hline
+PH-02 & Subsystem shall operate from 240V Australian mains supply via an isolated relay module. & HLO-4 \\ \hline
+PH-03 & Subsystem shall include a Wi-Fi capable microcontroller for communication and control. & HLO-4 \\ \hline
+PH-04 & Prototype enclosure footprint shall be less than 350 mm \(\times\) 150 mm. & HLO-4 \\ \hline
+\end{tabular}
+\caption{Physical system requirements}
+\end{table}
+
+\subsection{Functional Requirements}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2cm}|p{10.5cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement} & \textbf{HLO} \\ \hline
+FN-01 & Subsystem shall measure outlet power state once per second. & HLO-4 \\ \hline
+FN-02 & Subsystem shall detect standby condition below a configurable wattage threshold. & HLO-4 \\ \hline
+FN-03 & Subsystem shall generate shutoff schedules using repeated inactivity patterns. & HLO-4 \\ \hline
+FN-04 & Subsystem shall allow manual override through the mobile dashboard. & HLO-4 \\ \hline
+FN-05 & Subsystem shall restore power immediately upon authorised user command. & HLO-4 \\ \hline
+\end{tabular}
+\caption{Functional system requirements}
+\end{table}
+
+\subsection{Performance Requirements}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2cm}|p{10.5cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement} & \textbf{HLO} \\ \hline
+PE-01 & Subsystem shall reduce standby energy consumption by at least 40\% during controlled testing. & HLO-4 \\ \hline
+PE-02 & Switching response time shall be less than 2 seconds after command input. & HLO-4 \\ \hline
+PE-03 & Schedule recommendations shall achieve at least 80\% user acceptance accuracy. & HLO-4 \\ \hline
+PE-04 & Subsystem shall operate continuously for 30 days without requiring reset. & HLO-4 \\ \hline
+\end{tabular}
+\caption{Performance system requirements}
+\end{table}
+
+
+\subsection{Subsystem Architecture}
+The Automatic Power-off Scheduling subsystem forms part of the wider PowerStake platform by linking power monitoring, intelligent control, wireless communication, 
+and user interaction. Power sensors provide real-time outlet usage data which is processed by the onboard microcontroller. A practical prototype could utilise an 
+ESP32 microcontroller due to its integrated Wi-Fi capability, sufficient processing performance, and low-cost implementation \cite{esp32productpage}. As well as ACS712 current sensing modules, 
+and isolated relay switching hardware to provide low-cost monitoring and automated outlet control \cite{acs712}.
+
+The controller stores recent usage history and applies scheduling logic to identify repeated inactivity periods or standby behaviour. When suitable conditions are 
+met, relay drivers disconnect power to selected outlets in order to reduce unnecessary energy consumption.
+
+The Wi-Fi module enables two-way communication between the device and the mobile dashboard. This allows users to manually override schedules, restore outlet power, 
+and review system recommendations. In later development stages, cloud-based analysis could be introduced to improve shutoff recommendations using longer-term usage trends.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sysarch2.png}
+    \caption{System Architecture of the Automatic Power-off Scheduling Subsystem \cite{chatgptfigure2026}.}
+    \label{fig:sysarch}
+\end{figure}
+This subsystem interfaces directly with the wider PowerStake monitoring, control, and mobile dashboard environment.
+
+
+
+\subsection{Trade Studies}
+
+A trade study was conducted to determine the most suitable switching method for the Automatic Power-off Scheduling subsystem. Reliable switching is essential, as the selected component must 
+disconnect outlet power when standby conditions or scheduled shutoff periods are detected. For the current prototype stage, the preferred solution needed to be low-cost, safe, easy to integrate 
+with an ESP32 microcontroller, and practical to implement within the available project timeframe.
+
+Three switching approaches were evaluated: (1) electromechanical relay module, (2) solid state relay (SSR), and (3) modified commercial smart plug hardware. These options were compared based 
+on switching capability, cost, integration complexity, prototype suitability, and overall practicality.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{3.5cm}|p{3.8cm}|p{2cm}|p{3.2cm}|p{2cm}|}
+\hline
+\textbf{Option} & \textbf{Switching Capability} & \textbf{Cost (AUD)} & \textbf{Integration Complexity} & \textbf{Suitability} \\ \hline
+Mechanical Relay Module & 10A, 250VAC switching contacts \cite{songlerelay} & \$8--15 & Low -- direct GPIO control, common modules available & High \\ \hline
+Solid State Relay (SSR) & Silent AC switching, high cycle life \cite{omronssr} & \$15--30 & Medium -- load matching and thermal management required & Medium \\ \hline
+Modified Smart Plug Hardware & Existing mains switching in consumer enclosure \cite{tplinkplug} & \$20+ & High -- proprietary PCB, difficult modification & Low \\ \hline
+\end{tabular}
+\caption{Automatic Power-off Scheduling trade study}
+\label{tab:trade}
+\end{table}
+
+The mechanical relay module was selected as the preferred solution due to its low cost, simple control interface, and suitability for rapid prototype development. Standard relay modules can 
+be controlled directly using ESP32 digital outputs and provide galvanic isolation between the low-voltage control circuit and the switched load \cite{songlerelay}. This makes them practical for early-stage testing and subsystem validation.
+
+Solid state relays provide silent operation and long switching life; however, they are more expensive and may require additional thermal management depending on the connected 
+load \cite{omronssr}. While technically strong, they were considered less practical for an initial university prototype.
+
+Modified smart plug hardware was the least suitable option. Although it contains integrated switching hardware, internal circuitry is often proprietary and not intended for modification, 
+increasing development time and reducing transparency during testing \cite{tplinkplug}.
+
+Overall, the mechanical relay module offered the best balance of cost, safety, ease of integration, and functional performance for achieving the subsystem High-Level Objective within the 
+current project scope.
+\newpage
+\printbibliography
+
+
+
+
+
+
 
 
 \end{document}
+
+
+% ---------------------------------------------------------------------------------
+
+
+\subsection{Trade Studies}
+
+A trade study was completed to determine the most suitable outlet switching technology for the Automatic Power-off Scheduling subsystem. This component is required 
+to disconnect power to selected outlets when standby conditions or scheduled shutoff periods are detected. As the project is currently at concept stage and aims to
+ reach TRL 3 progressing toward early TRL 4, practical factors such as low cost, simple integration, safe operation, and rapid prototyping were prioritised over 
+ premium commercial performance.
+
+Three switching options were considered: (1) electromechanical relay module, (2) solid state relay (SSR), and (3) modified commercial smart plug hardware. These 
+options were compared using the criteria shown in Table~\ref{tab:weights}.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|p{5cm}|c|}
+\hline
+\textbf{Criterion} & \textbf{Weight (\%)} \\ \hline
+Electrical Safety / Isolation & 30 \\ \hline
+Cost & 25 \\ \hline
+Ease of Integration & 20 \\ \hline
+Reliability & 15 \\ \hline
+Prototype Delivery Speed & 10 \\ \hline
+\end{tabular}
+\caption{Trade study weighting criteria}
+\label{tab:weights}
+\end{table}
+
+Each option was scored from 1 (poor) to 5 (excellent). Final weighted results are presented in Table~\ref{tab:trade}.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|p{6cm}|c|c|}
+\hline
+\textbf{Option} & \textbf{Weighted Score} & \textbf{Rank} \\ \hline
+Mechanical Relay Module & 4.45 & 1 \\ \hline
+Solid State Relay & 3.85 & 2 \\ \hline
+Modified Smart Plug Hardware & 2.95 & 3 \\ \hline
+\end{tabular}
+\caption{Weighted comparison of switching technologies}
+\label{tab:trade}
+\end{table}
+
+The mechanical relay module achieved the highest score and will be selected for the prototype build. Relay modules are inexpensive, commonly available, and can be 
+directly controlled using ESP32 digital outputs \cite{esp32datasheet}. They also provide electrical isolation between the low-voltage control circuit and higher-voltage switching side, 
+which is beneficial during early prototype development.
+
+Solid state relays offer quieter operation and longer switching life, however they are more expensive and may require additional thermal considerations. Modified 
+smart plug hardware was ranked lowest due to limited accessibility, proprietary circuitry, and added integration difficulty.
+
+Overall, the relay module was considered the most practical and realistic option for demonstrating subsystem functionality within the available unit timeframe.
