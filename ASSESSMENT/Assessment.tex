@@ -257,49 +257,68 @@ and review system recommendations. In later development stages, cloud-based anal
 This subsystem interfaces directly with the wider PowerStake monitoring, control, and mobile dashboard environment.
 
 
-
 \subsection{Trade Studies}
 
-A trade study was conducted to determine the most suitable switching method for the Automatic Power-off Scheduling subsystem. Reliable switching is essential, as the selected component must 
-disconnect outlet power when standby conditions or scheduled shutoff periods are detected. For the current prototype stage, the preferred solution needed to be low-cost, safe, easy to integrate 
-with an ESP32 microcontroller, and practical to implement within the available project timeframe.
+A trade study was conducted to determine the most suitable switching solution for the Automatic Power-off Scheduling subsystem. This subsystem requires a device capable of disconnecting power to selected outlets once standby conditions or scheduled shutoff periods are detected. The preferred solution needed to provide safe operation, low implementation cost, simple integration with the control hardware, and suitability for prototype development within the available project timeframe.
 
-Three switching approaches were evaluated: (1) electromechanical relay module, (2) solid state relay (SSR), and (3) modified commercial smart plug hardware. These options were compared based 
-on switching capability, cost, integration complexity, prototype suitability, and overall practicality.
+Three switching approaches were evaluated: (1) electromechanical relay module, (2) solid state relay (SSR), and (3) modified commercial smart plug hardware. Initial comparison of the available options is provided in Table~\ref{tab:optionsummary}.
 
 \begin{table}[H]
 \centering
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|p{3.5cm}|p{3.8cm}|p{2cm}|p{3.2cm}|p{2cm}|}
+\begin{tabular}{|p{3.7cm}|p{3.7cm}|p{2cm}|p{3.0cm}|p{2cm}|}
 \hline
 \textbf{Option} & \textbf{Switching Capability} & \textbf{Cost (AUD)} & \textbf{Integration Complexity} & \textbf{Suitability} \\ \hline
-Mechanical Relay Module & 10A, 250VAC switching contacts \cite{songlerelay} & \$8--15 & Low -- direct GPIO control, common modules available & High \\ \hline
-Solid State Relay (SSR) & Silent AC switching, high cycle life \cite{omronssr} & \$15--30 & Medium -- load matching and thermal management required & Medium \\ \hline
-Modified Smart Plug Hardware & Existing mains switching in consumer enclosure \cite{tplinkplug} & \$20+ & High -- proprietary PCB, difficult modification & Low \\ \hline
+Mechanical Relay Module & 10A, 250VAC switching contacts \cite{songlerelay} & \$8--15 & Low -- common modules available & High \\ \hline
+Solid State Relay (SSR) & Silent AC switching, high cycle life \cite{omronssr} & \$15--30 & Medium -- thermal/load matching required & Medium \\ \hline
+Modified Smart Plug Hardware & Existing mains switching in consumer enclosure \cite{tplinkplug} & \$20+ & High -- proprietary PCB rework required & Low \\ \hline
 \end{tabular}
-\caption{Automatic Power-off Scheduling trade study}
+\caption{Initial comparison of switching options}
+\label{tab:optionsummary}
+\end{table}
+
+The options were then assessed using the criteria of cost, safety, ease of integration, and prototype suitability. Weighting factors were assigned from 1 (lowest importance) to 4 (highest importance), where greater weighting reflects stronger relevance to subsystem requirements.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|p{5cm}|c|}
+\hline
+\textbf{Criterion} & \textbf{Weight} \\ \hline
+Cost & 3 \\ \hline
+Safety & 4 \\ \hline
+Ease of Integration & 4 \\ \hline
+Prototype Suitability & 3 \\ \hline
+\end{tabular}
+\caption{Trade study weighting factors}
+\label{tab:weights}
+\end{table}
+
+Each option was scored on a scale of 1 to 5, where 5 represents the most favourable outcome. Weighted totals were calculated by multiplying each score by the corresponding criterion weighting.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+\hline
+\textbf{Option} & \textbf{Cost} & \textbf{Safety} & \textbf{Integration} & \textbf{Suitability} & \textbf{Total} \\ \hline
+Mechanical Relay Module & 5 & 4 & 5 & 5 & 56 \\ \hline
+Solid State Relay & 3 & 4 & 3 & 3 & 41 \\ \hline
+Modified Smart Plug Hardware & 2 & 2 & 1 & 2 & 21 \\ \hline
+\end{tabular}
+\caption{Weighted comparison matrix for switching solutions}
 \label{tab:trade}
 \end{table}
 
-The mechanical relay module was selected as the preferred solution due to its low cost, simple control interface, and suitability for rapid prototype development. Standard relay modules can 
-be controlled directly using ESP32 digital outputs and provide galvanic isolation between the low-voltage control circuit and the switched load \cite{songlerelay}. This makes them practical for early-stage testing and subsystem validation.
+The mechanical relay module achieved the highest total score and was selected as the preferred solution. Relay boards are inexpensive, widely available, and provide galvanic isolation between the low-voltage control circuit and the switched AC load, making them appropriate for prototype testing and early subsystem validation \cite{songlerelay}.
 
-Solid state relays provide silent operation and long switching life; however, they are more expensive and may require additional thermal management depending on the connected 
-load \cite{omronssr}. While technically strong, they were considered less practical for an initial university prototype.
+Solid state relays offer silent operation and long switching life; however, they are more expensive and may require additional thermal management depending on the connected load \cite{omronssr}. While technically effective, they were considered less practical for the current prototype stage.
 
-Modified smart plug hardware was the least suitable option. Although it contains integrated switching hardware, internal circuitry is often proprietary and not intended for modification, 
-increasing development time and reducing transparency during testing \cite{tplinkplug}.
+Modified smart plug hardware ranked lowest due to proprietary circuitry, difficult modification, and reduced transparency during testing. Although these devices contain integrated switching hardware, they are generally not designed for redevelopment or subsystem prototyping \cite{tplinkplug}.
 
-Overall, the mechanical relay module offered the best balance of cost, safety, ease of integration, and functional performance for achieving the subsystem High-Level Objective within the 
-current project scope.
-\newpage
+Overall, the mechanical relay module provided the best balance of cost, safety, ease of implementation, and suitability for demonstrating the subsystem High-Level Objective within the current prototype scope.
+
 \printbibliography
-
-
-
-
-
-
 
 
 \end{document}
@@ -358,3 +377,46 @@ Solid state relays offer quieter operation and longer switching life, however th
 smart plug hardware was ranked lowest due to limited accessibility, proprietary circuitry, and added integration difficulty.
 
 Overall, the relay module was considered the most practical and realistic option for demonstrating subsystem functionality within the available unit timeframe.
+
+
+% ---------------------------- v1 
+
+\subsection{Trade Studies}
+
+A trade study was conducted to determine the most suitable switching method for the Automatic Power-off Scheduling subsystem. Reliable switching is essential, as the selected component must 
+disconnect outlet power when standby conditions or scheduled shutoff periods are detected. For the current prototype stage, the preferred solution needed to be low-cost, safe, easy to integrate 
+with an ESP32 microcontroller, and practical to implement within the available project timeframe.
+
+Three switching approaches were evaluated: (1) electromechanical relay module, (2) solid state relay (SSR), and (3) modified commercial smart plug hardware. These options were compared based 
+on switching capability, cost, integration complexity, prototype suitability, and overall practicality.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{3.5cm}|p{3.8cm}|p{2cm}|p{3.2cm}|p{2cm}|}
+\hline
+\textbf{Option} & \textbf{Switching Capability} & \textbf{Cost (AUD)} & \textbf{Integration Complexity} & \textbf{Suitability} \\ \hline
+Mechanical Relay Module & 10A, 250VAC switching contacts \cite{songlerelay} & \$8--15 & Low -- direct GPIO control, common modules available & High \\ \hline
+Solid State Relay (SSR) & Silent AC switching, high cycle life \cite{omronssr} & \$15--30 & Medium -- load matching and thermal management required & Medium \\ \hline
+Modified Smart Plug Hardware & Existing mains switching in consumer enclosure \cite{tplinkplug} & \$20+ & High -- proprietary PCB, difficult modification & Low \\ \hline
+\end{tabular}
+\caption{Automatic Power-off Scheduling trade study}
+\label{tab:trade}
+\end{table}
+
+The mechanical relay module was selected as the preferred solution due to its low cost, simple control interface, and suitability for rapid prototype development. Standard relay modules can 
+be controlled directly using ESP32 digital outputs and provide galvanic isolation between the low-voltage control circuit and the switched load \cite{songlerelay}. This makes them practical for early-stage testing and subsystem validation.
+
+Solid state relays provide silent operation and long switching life; however, they are more expensive and may require additional thermal management depending on the connected 
+load \cite{omronssr}. While technically strong, they were considered less practical for an initial university prototype.
+
+Modified smart plug hardware was the least suitable option. Although it contains integrated switching hardware, internal circuitry is often proprietary and not intended for modification, 
+increasing development time and reducing transparency during testing \cite{tplinkplug}.
+
+Overall, the mechanical relay module offered the best balance of cost, safety, ease of integration, and functional performance for achieving the subsystem High-Level Objective within the 
+current project scope.
+\newpage
+\printbibliography
+
+
+

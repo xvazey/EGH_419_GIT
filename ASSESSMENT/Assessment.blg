@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'Assessment.blg'
-[86] biber-MSWIN64:340> INFO - === 
-[123] Biber.pm:420> INFO - Reading 'Assessment.bcf'
-[204] Biber.pm:994> INFO - Found 7 citekeys in bib section 0
-[214] Biber.pm:4463> INFO - Processing section 0
-[224] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
-[284] bibtex.pm:1713> INFO - LaTeX decoding ...
-[294] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[347] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[347] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[347] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[347] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[354] bbl.pm:676> INFO - Writing 'Assessment.bbl' with encoding 'UTF-8'
-[357] bbl.pm:779> INFO - Output to Assessment.bbl
-[357] Biber.pm:131> WARN - Duplicate entry key: 'songlerelay' in file 'references.bib', skipping ...
-[357] Biber.pm:133> INFO - WARNINGS: 1
+[103] biber-MSWIN64:340> INFO - === 
+[158] Biber.pm:420> INFO - Reading 'Assessment.bcf'
+[253] Biber.pm:994> INFO - Found 7 citekeys in bib section 0
+[262] Biber.pm:4463> INFO - Processing section 0
+[272] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[367] bibtex.pm:1713> INFO - LaTeX decoding ...
+[377] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[424] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[424] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[424] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[425] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[431] bbl.pm:676> INFO - Writing 'Assessment.bbl' with encoding 'UTF-8'
+[434] bbl.pm:779> INFO - Output to Assessment.bbl
+[434] Biber.pm:131> WARN - Duplicate entry key: 'songlerelay' in file 'references.bib', skipping ...
+[434] Biber.pm:133> INFO - WARNINGS: 1

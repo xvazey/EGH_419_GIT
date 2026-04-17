@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  17 APR 2026 12:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  17 APR 2026 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1146,58 +1146,63 @@ Package pdftex.def Info: sysarch2.png  used on input line 253.
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 []|\OT1/cmr/bx/n/10.95 Cost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 []|\OT1/cmr/bx/n/10.95 Integration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 []|\OT1/cmr/m/n/10.95 Mechanical Re-lay
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
-\OT1/cmr/m/n/10.95 con-trol, com-mon
+Underfull \hbox (badness 4013) in paragraph at lines 272--272
+[]|\OT1/cmr/m/n/10.95 Low -- com-mon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []|\OT1/cmr/m/n/10.95 Solid State Re-lay
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 277--277
-[]|\OT1/cmr/m/n/10.95 Silent AC switch-ing,
+Underfull \hbox (badness 2173) in paragraph at lines 273--273
+[]|\OT1/cmr/m/n/10.95 Medium -- ther-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-[]|\OT1/cmr/m/n/10.95 Medium -- load
+Underfull \hbox (badness 2529) in paragraph at lines 273--273
+\OT1/cmr/m/n/10.95 mal/load match-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-\OT1/cmr/m/n/10.95 mal man-age-ment
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\OT1/cmr/m/n/10.95 Existing mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-\OT1/cmr/m/n/10.95 PCB, dif-fi-cult
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\OT1/cmr/m/n/10.95 High -- pro-pri-
  []
 
 
-Overfull \hbox (19.72076pt too wide) in paragraph at lines 273--280
+Overfull \hbox (16.87532pt too wide) in paragraph at lines 269--276
  [][] 
  []
 
 
 
 [4 <./sysarch2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\OT1/cmr/m/n/10.95 Modified Smart Plug
+ []
+
+
 
 [5]
 
@@ -1213,17 +1218,17 @@ Package logreq Info: Writing requests to 'Assessment.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44458 strings out of 473523
- 945222 string characters out of 5714630
- 1732227 words of memory out of 5000000
- 67081 multiletter control sequences out of 15000+600000
+ 44462 strings out of 473523
+ 945284 string characters out of 5714630
+ 1733361 words of memory out of 5000000
+ 67083 multiletter control sequences out of 15000+600000
  566464 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,101p,803b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\xanth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Assessment.pdf (7 pages, 525430 bytes).
+Output written on Assessment.pdf (7 pages, 528125 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
