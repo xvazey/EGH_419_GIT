@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  17 APR 2026 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  18 APR 2026 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -994,28 +994,28 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \c@definition=\count506
 \@quotelevel=\count507
 \@quotereset=\count508
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 94.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 96.
  (Assessment.aux)
 \openout1 = `Assessment.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1097,9 +1097,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Assessment.bbl' found.
  (Assessment.bbl)
-Package biblatex Info: Reference section=0 on input line 94.
-Package biblatex Info: Reference segment=0 on input line 94.
-Package hyperref Info: Link coloring OFF on input line 94.
+Package biblatex Info: Reference section=0 on input line 96.
+Package biblatex Info: Reference segment=0 on input line 96.
+Package hyperref Info: Link coloring OFF on input line 96.
  (Assessment.out) (Assessment.out)
 \@outlinefile=\write5
 \openout5 = `Assessment.out'.
@@ -1107,16 +1107,16 @@ Package hyperref Info: Link coloring OFF on input line 94.
  (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 94.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 96.
 
-Package chemgreek Info: Activating mapping `default' on line 94.
+Package chemgreek Info: Activating mapping `default' on line 96.
 
 
 
 [1
 
 {C:/Users/xanth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (3.07475pt too wide) in paragraph at lines 132--133
+Overfull \hbox (3.07475pt too wide) in paragraph at lines 134--135
 \OT1/cmr/m/n/10.95 power man-age-ment sys-tem de-signed to help house-holds re-duce elec-tric-ity costs through appliance-
  []
 
@@ -1126,85 +1126,95 @@ Overfull \hbox (3.07475pt too wide) in paragraph at lines 132--133
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 
+l.177 
        [1]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 194.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 211.
  (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 194.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 211.
  (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [2]
-<sysarch2.png, id=96, 1541.76pt x 1027.84pt>
-File: sysarch2.png Graphic file (type png)
-<use sysarch2.png>
-Package pdftex.def Info: sysarch2.png  used on input line 253.
-(pdftex.def)             Requested size: 455.24411pt x 303.49248pt.
-
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
-[]|\OT1/cmr/bx/n/10.95 Cost
+
+[4]
+<AI_subsystem_architecture.png, id=113, 1157.82562pt x 758.835pt>
+File: AI_subsystem_architecture.png Graphic file (type png)
+<use AI_subsystem_architecture.png>
+Package pdftex.def Info: AI_subsystem_architecture.png  used on input line 294.
+(pdftex.def)             Requested size: 455.24411pt x 298.36444pt.
+
+Underfull \hbox (badness 2961) in paragraph at lines 313--313
+[]|\OT1/cmr/bx/n/10.95 Data Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
-[]|\OT1/cmr/bx/n/10.95 Integration
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\OT1/cmr/bx/n/10.95 Computational
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-[]|\OT1/cmr/m/n/10.95 Mechanical Re-lay
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\OT1/cmr/m/n/10.95 Rule-Based
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 272--272
-[]|\OT1/cmr/m/n/10.95 Low -- com-mon
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\OT1/cmr/m/n/10.95 Thresh-old-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-[]|\OT1/cmr/m/n/10.95 Solid State Re-lay
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\OT1/cmr/m/n/10.95 Classical
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 273--273
-[]|\OT1/cmr/m/n/10.95 Medium -- ther-
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\OT1/cmr/m/n/10.95 Ma-chine
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 273--273
-\OT1/cmr/m/n/10.95 mal/load match-
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\OT1/cmr/m/n/10.95 Feature-based clas-si-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\OT1/cmr/m/n/10.95 Existing mains
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/10.95 Lightweight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\OT1/cmr/m/n/10.95 High -- pro-pri-
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/10.95 Deep
  []
 
 
-Overfull \hbox (16.87532pt too wide) in paragraph at lines 269--276
+Underfull \hbox (badness 3769) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/10.95 Learns tem-po-ral pat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/10.95 terns di-rectly from
+ []
+
+
+
+[5 <./AI_subsystem_architecture.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+[]|\OT1/cmr/m/n/10.95 Rule-Based
+ []
+
+
+Overfull \hbox (27.94772pt too wide) in paragraph at lines 325--332
  [][] 
  []
 
 
-
-[4 <./sysarch2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[]|\OT1/cmr/m/n/10.95 Modified Smart Plug
- []
-
-
-
-[5]
 
 [6] (Assessment.aux)
  ***********
@@ -1212,23 +1222,23 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Assessment.out' has not changed.
-(rerunfilecheck)             Checksum: 416D27F9010B158E7E3F57E202D6C071;1759.
+(rerunfilecheck)             Checksum: A84294A407664FCF055B3F287E9FDEA2;2056.
 Package logreq Info: Writing requests to 'Assessment.run.xml'.
 \openout1 = `Assessment.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44462 strings out of 473523
- 945284 string characters out of 5714630
- 1733361 words of memory out of 5000000
- 67083 multiletter control sequences out of 15000+600000
+ 44444 strings out of 473523
+ 944687 string characters out of 5714630
+ 1733001 words of memory out of 5000000
+ 67068 multiletter control sequences out of 15000+600000
  566464 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,101p,803b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\xanth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Assessment.pdf (7 pages, 528125 bytes).
+Output written on Assessment.pdf (7 pages, 1240096 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
