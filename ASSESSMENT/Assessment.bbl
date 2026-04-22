@@ -19,42 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{energygovstandby}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=b5a84edc9bbf0c4be505dd1100ebb240}{%
-           family={Energy},
-           familyi={E\bibinitperiod},
-           given={U.S.\bibnamedelimi Department},
-           giveni={U\bibinitperiod\bibinitdelim D\bibinitperiod},
-           prefix={of},
-           prefixi={o\bibinitperiod}}}%
-      }
-      \strng{namehash}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \strng{fullhash}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \strng{fullhashraw}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \strng{bibnamehash}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \strng{authorbibnamehash}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \strng{authornamehash}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \strng{authorfullhash}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \strng{authorfullhashraw}{b5a84edc9bbf0c4be505dd1100ebb240}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Explains standby power consumption from household electronics and methods to reduce wasted energy}
-      \field{title}{Standby Power and Energy Vampires}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.energy.gov/energysaver/standby-power
-      \endverb
-      \verb{url}
-      \verb https://www.energy.gov/energysaver/standby-power
-      \endverb
-    \endentry
     \entry{chatgptfigure2026}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=0523b13262b12c215d8009938f5c14f1}{%
@@ -69,8 +33,8 @@
       \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{AI-generated image created for report use on 17 April 2026}

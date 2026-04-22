@@ -128,154 +128,170 @@
 %  Main Content
 % -------------------------------------------------
 
+
 \section{Product Name}
 
-\textbf{PowerStake}
+The proposed product developed by Group 40 is titled \textbf{PowerStake}. PowerStake is a smart power management system designed to help households reduce electricity costs through appliance-level monitoring, automated outlet control, predictive insights, and a user-friendly mobile dashboard. The concept combines affordable hardware with intelligent software to reduce standby energy waste, improve convenience, and identify potential appliance faults before failure occurs.
 
-\textbf{Student Name:} Xanthea Vazey
+The Group 40 project team is structured using functional roles to allocate responsibilities across business, technical, and design tasks. Team members and primary subsystem responsibilities are listed below:
 
-\textbf{Role:} Hipster
+\begin{itemize}
+    \item \textbf{Handler - Erin Keur:} Project coordination and power usage reduction strategy.
+    
+    \item \textbf{Hustler - Ethan Bailey:} Commercial strategy, customer value proposition, and mobile dashboard development.
+    
+    \item \textbf{Hacker - Andrew Pollard:} Hardware development including power measurement and supply systems.
+    
+    \item \textbf{Hipster - Xanthea Vazey:} User experience, industrial design, and automatic power-off scheduling functions.
+    
+    \item \textbf{Helper - Jeremy Khin Zaw:} Cross-functional support across all project areas, with primary responsibility for fault detection systems.
+\end{itemize}
 
-\textbf{Primary Responsibility:} AI subsystem design, user-focused automation features, and intelligent decision-support systems.
+This team structure enables parallel development of the core PowerStake subsystems while maintaining shared ownership of prototype integration and validation activities.
 
-PowerStake is a smart household energy management system designed to reduce electricity costs through appliance-level monitoring, automated recommendations, 
-fault alerts, and a mobile dashboard. The concept combines low-cost sensing hardware with practical analytics to help households reduce standby energy waste, 
-improve appliance efficiency, and simplify energy management decisions.
+% \subsection{Product Overview}
 
-\vspace{0.5em}
+% PowerStake is a smart household energy management system designed to reduce unnecessary electricity costs through appliance-level monitoring, automated control, and user-friendly 
+% recommendations. The primary problem addressed is rising household electricity costs caused by standby power consumption, inefficient appliance usage, and a lack of actionable 
+% energy insights. Many users understand that electricity is expensive but do not have the time or motivation to manually switch devices off each day  \cite{smartplugmarket}. The intended end-user is a 
+% cost-conscious household occupant or individual seeking lower bills through simple automation rather than technical energy management. 
+
+\section{Target TRL}
+
+The current readiness level of the Automatic Power-off Scheduling subsystem is estimated at TRL 2. At present, the concept has been defined and supported through 
+preliminary research into existing technologies such as smart plugs, programmable timers, relay modules, and mobile-controlled outlet systems. However, no integrated 
+prototype has yet been constructed or experimentally validated by the project team.
+
+Given the remaining project schedule, the realistic target for this assessment is TRL 3 progressing toward early TRL 4. This would involve developing and 
+demonstrating a proof-of-concept prototype using commercially available microcontrollers (e.g. ESP32), relay modules, and basic power sensing inputs. Initial 
+validation may be performed on low-voltage test circuits or simulated appliance loads rather than direct 240 V mains systems, reducing safety risk and development 
+complexity.
+
+A successful prototype outcome would demonstrate the core subsystem functions of detecting inactive loads, applying simple shutoff logic, manually restoring power,
+ and communicating with a mobile dashboard interface. Supporting work may also include enclosure concepts developed through CAD modelling and early physical packaging 
+ studies for future iterations.
+
+Achieving a full TRL 4 mains-ready prototype within the current timeframe is considered ambitious due to hardware procurement, electrical safety constraints, and 
+software integration requirements. A more practical near-term pathway would be completion of a validated bench-scale prototype during this unit, followed by future 
+progression to TRL 4-5 through controlled household testing across common appliances such as televisions, chargers, gaming consoles, and kitchen devices.
 
 \section{Problem Validation and Engineering Design}
+\subsection{Customer Needs}
+Many households waste electricity through standby loads from televisions, chargers, gaming consoles, printers and kitchen appliances \cite{energygovstandby}. While individual standby loads are small, 
+cumulative yearly costs are meaningful. Existing timer switches require manual programming and do not adapt to user behaviour. Most smart plugs offer remote switching but still 
+depend on active user involvement. Customers require a solution that automatically reduces unnecessary consumption while maintaining convenience. The system must be simple to use, 
+safe, and allow manual override when required.
 
-\subsection{Customer Needs and High-Level Objective}
+\subsection{High-Level Objective (HLO-4)}
 
-Customer research identified that many households want lower electricity bills but often lack the time, motivation, or technical knowledge to actively manage 
-appliance energy use. Standby loads from televisions, chargers, gaming consoles, printers, and kitchen appliances can create unnecessary ongoing costs. Existing 
-smart plugs commonly provide remote switching or raw power data, however they still rely on users interpreting information and manually taking action.
+The subsystem shall automatically recommend or execute outlet shutoff schedules that reduce standby energy consumption by at least 40\% during controlled testing, while allowing manual user override within 2 seconds.
 
-Customers are more likely to adopt a system that converts power data into clear recommendations, warns of unusual appliance behaviour, and helps reduce wasted 
-energy without increasing user effort. This creates a need for an intelligent analytical subsystem that improves household decision-making through simple and 
-useful outputs.
+\section{System Requirements}
 
-\textbf{HLO-004: AI decision engine}
+% \section{System Requirements}
 
-\textit{The PowerStake AI subsystem must convert appliance-level power monitoring data into actionable fault alerts and energy-saving recommendations that improve 
-household decision-making during prototype testing.}
+The system requirements for the Automatic Power-off Scheduling subsystem have been developed to ensure alignment with HLO-4 and the broader PowerStake prototype objectives. Requirements are divided into Physical, Functional, and Performance categories. Physical requirements define hardware constraints and design limitations. Functional requirements define what the subsystem must do. Performance requirements define how effectively the subsystem must operate and be validated.
 
+\subsection{Numbering Scheme}
 
-\vspace{0.5em}\subsection{System Requirements}
+Each requirement is identified using the following format:
 
-The following subsystem requirements were developed for the PowerStake AI Decision Engine and are categorised into Physical, Functional, and Performance requirements. Each requirement is directly traced to HLO-004.
+\begin{itemize}
+    \item REQ-Ph-XX = Physical Requirement
+    \item REQ-F-XX = Functional Requirement
+    \item REQ-Pe-XX = Performance Requirement
+\end{itemize}
 
-\subsubsection*{Physical Requirements}
+\subsection{Physical Requirements}
 
-\textbf{REQ-Ph-01} \\
-\textbf{Description:} The AI subsystem shall operate on a local prototype computer or cloud-hosted environment. \\
-\textbf{Rationale:} Allows practical prototype deployment using available hardware while supporting future scalability. \\
-\textbf{Traced From:} HLO-004
+\begin{table}[H]
+\caption{Physical subsystem requirements}
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2.5cm}|p{10cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement Description} & \textbf{Trace} \\ \hline
+REQ-Ph-01 & The subsystem shall control a minimum of four independently switched AC outlets. & HLO-4 \\ \hline
+REQ-Ph-02 & The subsystem shall operate from Australian 240V mains supply using isolated switching hardware. & HLO-4 \\ \hline
+REQ-Ph-03 & The subsystem shall include wireless communication hardware for dashboard connectivity. & HLO-4 \\ \hline
+REQ-Ph-04 & The prototype enclosure footprint shall remain below 350 mm \(\times\) 150 mm. & HLO-4 \\ \hline
+REQ-Ph-05 & The subsystem shall utilise low-voltage internal control circuitry separated from switched mains outputs. & HLO-4 \\ \hline
+\end{tabular}
+\end{table}
 
-\vspace{0.5em}
+\subsection{Functional Requirements}
 
-\textbf{REQ-Ph-02} \\
-\textbf{Description:} The AI subsystem shall interface with the PowerStake monitoring database and mobile dashboard API. \\
-\textbf{Rationale:} Ensures appliance data can be received and recommendations can be transmitted to end-users. \\
-\textbf{Traced From:} HLO-004
+\begin{table}[H]
+\caption{Functional subsystem requirements}
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2.5cm}|p{10cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement Description} & \textbf{Trace} \\ \hline
+REQ-F-01 & The subsystem shall detect outlet power state at intervals no greater than 1 second. & HLO-4 \\ \hline
+REQ-F-02 & The subsystem shall identify standby loads below a configurable wattage threshold. & HLO-4 \\ \hline
+REQ-F-03 & The subsystem shall generate shutoff recommendations using repeated inactivity patterns. & HLO-4 \\ \hline
+REQ-F-04 & The subsystem shall automatically disconnect selected outlets according to approved schedules or inactivity rules. & HLO-4 \\ \hline
+REQ-F-05 & The subsystem shall allow manual override through the mobile dashboard. & HLO-4 \\ \hline
+REQ-F-06 & The subsystem shall restore outlet power upon authorised user command. & HLO-4 \\ \hline
+REQ-F-07 & The subsystem shall log switching actions for later user review. & HLO-4 \\ \hline
+\end{tabular}
+\end{table}
 
-\vspace{0.5em}
+\subsection{Performance Requirements}
 
-\textbf{REQ-Ph-03} \\
-\textbf{Description:} The AI subsystem shall retain historical appliance usage data for a minimum of 30 days. \\
-\textbf{Rationale:} Provides sufficient behavioural history for trend analysis and anomaly detection. \\
-\textbf{Traced From:} HLO-004
+\begin{table}[H]
+\caption{Performance subsystem requirements}
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2.5cm}|p{10cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement Description} & \textbf{Trace} \\ \hline
+REQ-Pe-01 & The subsystem shall reduce standby energy consumption by at least 40\% during controlled prototype testing. & HLO-4 \\ \hline
+REQ-Pe-02 & Automatic shutoff commands shall execute within 2 seconds of trigger conditions being met. & HLO-4 \\ \hline
+REQ-Pe-03 & At least 80\% of schedule recommendations shall be accepted during five representative user test scenarios. & HLO-4 \\ \hline
+REQ-Pe-04 & Wireless command success rate shall exceed 95\% during controlled testing. & HLO-4 \\ \hline
+REQ-Pe-05 & The subsystem shall operate continuously for 24 hours without requiring reset during bench testing. & HLO-4 \\ \hline
+\end{tabular}
+\end{table}
 
-\vspace{0.5em}
+\subsection{Verification Matrix}
 
-\subsubsection*{Functional Requirements}
-
-\textbf{REQ-F-01} \\
-\textbf{Description:} The AI subsystem shall receive appliance voltage, current, and power data at intervals of 1 second or less. \\
-\textbf{Rationale:} Provides timely data for near real-time analysis and decision generation. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\textbf{REQ-F-02} \\
-\textbf{Description:} The AI subsystem shall identify prolonged standby power consumption events. \\
-\textbf{Rationale:} Supports reduction of unnecessary electricity costs caused by vampire power loads. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\textbf{REQ-F-03} \\
-\textbf{Description:} The AI subsystem shall detect abnormal appliance behaviour relative to stored historical patterns. \\
-\textbf{Rationale:} Enables early identification of appliance degradation or potential faults. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\textbf{REQ-F-04} \\
-\textbf{Description:} The AI subsystem shall generate fault alerts and energy-saving recommendations. \\
-\textbf{Rationale:} Converts raw monitoring data into actionable outputs for the user. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\textbf{REQ-F-05} \\
-\textbf{Description:} The AI subsystem shall transmit outputs to the mobile dashboard interface. \\
-\textbf{Rationale:} Ensures recommendations and alerts are visible to the end-user. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\subsubsection*{Performance Requirements}
-
-\textbf{REQ-Pe-01} \\
-\textbf{Description:} Fault alert outputs shall be considered useful in at least 80\% of prototype test scenarios. \\
-\textbf{Rationale:} Measures whether generated alerts are relevant and valuable to users. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\textbf{REQ-Pe-02} \\
-\textbf{Description:} Energy-saving recommendations shall be considered useful in at least 80\% of prototype test scenarios. \\
-\textbf{Rationale:} Validates that recommendations improve household decision-making. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\textbf{REQ-Pe-03} \\
-\textbf{Description:} Recommendation outputs shall be generated within 5 seconds of receiving new monitoring data. \\
-\textbf{Rationale:} Maintains responsive near real-time system performance. \\
-\textbf{Traced From:} HLO-004
-
-\vspace{0.5em}
-
-\textbf{REQ-Pe-04} \\
-\textbf{Description:} The AI subsystem shall process data from at least 10 monitored devices simultaneously. \\
-\textbf{Rationale:} Demonstrates practical household scalability for prototype testing. \\
-\textbf{Traced From:} HLO-004
+\begin{table}[H]
+\caption{Requirement traceability matrix}
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|p{4cm}|c|}
+\hline
+\textbf{Requirement ID} & \textbf{HLO-4} \\ \hline
+REQ-Ph-01 & X \\ \hline
+REQ-Ph-02 & X \\ \hline
+REQ-Ph-03 & X \\ \hline
+REQ-F-01 & X \\ \hline
+REQ-F-02 & X \\ \hline
+REQ-F-03 & X \\ \hline
+REQ-F-04 & X \\ \hline
+REQ-F-05 & X \\ \hline
+REQ-F-06 & X \\ \hline
+REQ-Pe-01 & X \\ \hline
+REQ-Pe-02 & X \\ \hline
+REQ-Pe-03 & X \\ \hline
+REQ-Pe-04 & X \\ \hline
+REQ-Pe-05 & X \\ \hline
+\end{tabular}
+\end{table}
 
 \subsection{Subsystem Architecture}
 
-The AI subsystem acts as the decision-making and analytics layer of the PowerStake platform. It receives appliance-level monitoring data from the power monitoring and 
-onboard circuitry subsystems through the residential Wi-Fi and cloud communication pathway. Its purpose is to convert raw electrical measurements into actionable outputs i
-ncluding fault alerts, energy-saving recommendations, and proposed automatic shutoff opportunities.
+The AI subsystem forms the analytical layer of the PowerStake platform. It receives historical and near real-time power monitoring data from the onboard circuitry through the Wi-Fi and cloud communication path. Its role is to transform raw electrical measurements into useful outputs such as appliance fault alerts, power-saving opportunities, and recommended automatic shutoff schedules.
 
-As shown in Figure~\ref{fig:ai_subsystem_architecture}, the subsystem is divided into five functional stages: data ingestion, feature storage, model training, real-time 
-inference, and output delivery. Incoming measurements such as voltage, current, power draw, switching state, and usage timestamps are received and processed into useful 
-features including standby duration, inactivity periods, usage trends, and abnormal load changes.
+The subsystem contains four main stages: data ingestion, preprocessing, inference, and output generation. During data ingestion, measured voltage, current, power, and switching history are received and stored. These data are then filtered, normalised, and converted into useful features such as standby duration, repeated inactivity, and unusual load changes. The inference stage applies analytical logic to classify appliance behaviour as normal, inefficient, or potentially faulty. Finally, the output stage sends recommendations and alerts to the mobile dashboard, where users can review insights and approve or reject suggested actions.
 
-The training layer supports refinement of analytical models using historical datasets. For the prototype stage, this may include rule-based logic or lightweight machine 
-learning methods. The inference layer applies the selected model in near real-time to classify appliance behaviour and generate user-facing decisions.
-
-Outputs are delivered to the mobile dashboard, where users can review recommendations, receive alerts, and manually override suggested actions. User feedback may 
-also be captured to support future model improvement.
-
-The AI subsystem provides the core intelligence of PowerStake by linking monitored appliance behaviour to practical household energy decisions.
+This subsystem interfaces directly with the wider PowerStake monitoring, communication, and dashboard environment, and provides the decision-support capability required for intelligent energy management.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{sysarch4.png}
-    \includegraphics[width=\textwidth]{sysarch3.png}
+    \includegraphics[width=\textwidth]{AI_subsystem_architecture.png}
     \caption{Subsystem architecture for the PowerStake AI subsystem \cite{chatgptfigure2026}.}
     \label{fig:ai_subsystem_architecture}
 \end{figure}
@@ -284,8 +300,6 @@ The AI subsystem provides the core intelligence of PowerStake by linking monitor
 
 
 \subsection{Trade Studies}
-
-\textbf{NEED TO LOOK INOT }
 
 A trade study was conducted to determine the most suitable analytical approach for the PowerStake AI subsystem. The subsystem is required to analyse power monitoring data to identify appliance malfunctions, detect power-saving opportunities, and recommend automatic shutoff actions. For the current prototype stage, the preferred solution needed to be accurate enough to demonstrate value, while remaining practical to implement with limited data, modest computational resources, and a short development timeframe.
 

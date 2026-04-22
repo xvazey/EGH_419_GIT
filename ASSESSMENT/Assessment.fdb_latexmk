@@ -1,22 +1,19 @@
 # Fdb version 4
-["biber Assessment"] 1776494293.13742 "Assessment.bcf" "Assessment.bbl" "Assessment" 1776494365.4031 0
-  "Assessment.bcf" 1776494364 108047 7f934f8837beb15d9ce5eecd7749a160 "pdflatex"
-  "references.bib" 1776392947 3095 57385fb969524cef84b74950b1e3746d ""
+["biber Assessment"] 1776820135.70704 "Assessment.bcf" "Assessment.bbl" "Assessment" 1776821788.37262 0
+  "Assessment.bcf" 1776821787 107976 80b1141814d3635c4027e486d197c3f5 "pdflatex"
+  "references.bib" 1776818246 1625 819b0bb8b748185f15b94de029d07090 ""
   (generated)
   "Assessment.bbl"
   "Assessment.blg"
   (rewritten before read)
-["pdflatex"] 1776494363.20633 "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" "Assessment.pdf" "Assessment" 1776494365.40395 0
-  "AI_subsystem_architecture.png" 1776493401 1187224 ae9f733144ad45d09ca7b052941e83e7 ""
-  "Assessment.aux" 1776494364 3870 55e0cc3125383b792faa70d9797da971 "pdflatex"
-  "Assessment.bbl" 1776494294 3225 b37e46e825c82de6fa259ee2e8b86def "biber Assessment"
-  "Assessment.out" 1776494364 2056 a84294a407664fcf055b3f287e9fdea2 "pdflatex"
-  "Assessment.run.xml" 1776494364 2474 81701847505f75f320818744ad8ef84c "pdflatex"
-  "Assessment.tex" 1776494362 32887 cb732250ac060fe97b2c79e61ac7ac7a ""
+["pdflatex"] 1776821785.98189 "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" "Assessment.pdf" "Assessment" 1776821788.37342 0
+  "Assessment.aux" 1776821787 2272 4f9f2e4f58d5b51bfd7cde01cf6c4e1c "pdflatex"
+  "Assessment.bbl" 1776820137 1652 e1b5e0680591adebf6811f9d9fb46e07 "biber Assessment"
+  "Assessment.out" 1776821787 1080 e0d4c881a56d308b0ee619f0b686ff45 "pdflatex"
+  "Assessment.run.xml" 1776821787 2474 81701847505f75f320818744ad8ef84c "pdflatex"
+  "Assessment.tex" 1776821782 29547 c3510548594905413da6ba0aaaa18ece ""
   "C:/Users/xanth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776315006 82507 a9eef8696c92627b87e9975edea03b2a ""
-  "C:/Users/xanth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1741158942 12668 3f39aa1526266e7dc11332512187c117 ""
   "C:/Users/xanth/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1740729399 12015783 b645850e3206c86fd4b20af0590c7c24 ""
-  "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993062508 1460 8005ce585ff351dff78998923504da5e ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -38,13 +35,10 @@
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
-  "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
-  "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
-  "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -234,7 +228,9 @@
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" 1776494362 32887 cb732250ac060fe97b2c79e61ac7ac7a ""
+  "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" 1776821782 29547 c3510548594905413da6ba0aaaa18ece ""
+  "sysarch3.png" 1776819856 1153081 0e2f7feb32afc811f95c560233bcdd32 ""
+  "sysarch4.png" 1776820279 1023521 614b9742577eac24307931ff01b7c4fd ""
   (generated)
   "Assessment.aux"
   "Assessment.bcf"
