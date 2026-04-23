@@ -19,6 +19,70 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{Systemdesignhandbook}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=11146681e5e486ba3d324a6cde9fb485}{%
+           family={Haq},
+           familyi={H\bibinitperiod},
+           given={Fahim\bibnamedelima Ul},
+           giveni={F\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{11146681e5e486ba3d324a6cde9fb485}
+      \strng{fullhash}{11146681e5e486ba3d324a6cde9fb485}
+      \strng{fullhashraw}{11146681e5e486ba3d324a6cde9fb485}
+      \strng{bibnamehash}{11146681e5e486ba3d324a6cde9fb485}
+      \strng{authorbibnamehash}{11146681e5e486ba3d324a6cde9fb485}
+      \strng{authornamehash}{11146681e5e486ba3d324a6cde9fb485}
+      \strng{authorfullhash}{11146681e5e486ba3d324a6cde9fb485}
+      \strng{authorfullhashraw}{11146681e5e486ba3d324a6cde9fb485}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ai subsystem design guidelines from the System Design Handbook}
+      \field{title}{System Design Handbook}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.systemdesignhandbook.com/guides/ai-system-design/
+      \endverb
+      \verb{url}
+      \verb https://www.systemdesignhandbook.com/guides/ai-system-design/
+      \endverb
+    \endentry
+    \entry{tensorflowlite}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=6bc28252c14133d21331dc54856c1797}{%
+           family={{Google Developers}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \strng{bibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorbibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authornamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Framework for deploying lightweight deep learning models on embedded and edge devices}
+      \field{title}{TensorFlow Lite Overview}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/lite
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/lite
+      \endverb
+    \endentry
     \entry{chatgptfigure2026}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=0523b13262b12c215d8009938f5c14f1}{%
@@ -33,13 +97,45 @@
       \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{AI-generated image created for report use on 17 April 2026}
       \field{title}{System Architecture Figure Generated Using ChatGPT}
       \field{year}{2026}
+    \endentry
+    \entry{ibmanomalydetection}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Overview of anomaly detection methods relevant to appliance fault identification}
+      \field{title}{What is Anomaly Detection?}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/topics/anomaly-detection
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/topics/anomaly-detection
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

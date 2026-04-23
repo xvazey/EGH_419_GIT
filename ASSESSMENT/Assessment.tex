@@ -161,10 +161,12 @@ useful outputs.
 \textit{The PowerStake AI subsystem must convert appliance-level power monitoring data into actionable fault alerts and energy-saving recommendations that improve 
 household decision-making during prototype testing.}
 
+\vspace{0.5em}
+\subsection{System Requirements}
 
-\vspace{0.5em}\subsection{System Requirements}
-
-The following subsystem requirements were developed for the PowerStake AI Decision Engine and are categorised into Physical, Functional, and Performance requirements. Each requirement is directly traced to HLO-004.
+The following subsystem requirements were developed for the PowerStake AI Decision Engine and are categorised into Physical, Functional, 
+and Performance requirements. While the primary focus is HLO-004, several requirements also support wider system objectives including power 
+measurement, fault detection, automated control, and dashboard usability.
 
 \subsubsection*{Physical Requirements}
 
@@ -178,14 +180,21 @@ The following subsystem requirements were developed for the PowerStake AI Decisi
 \textbf{REQ-Ph-02} \\
 \textbf{Description:} The AI subsystem shall interface with the PowerStake monitoring database and mobile dashboard API. \\
 \textbf{Rationale:} Ensures appliance data can be received and recommendations can be transmitted to end-users. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-004, HLO-005
 
 \vspace{0.5em}
 
 \textbf{REQ-Ph-03} \\
 \textbf{Description:} The AI subsystem shall retain historical appliance usage data for a minimum of 30 days. \\
 \textbf{Rationale:} Provides sufficient behavioural history for trend analysis and anomaly detection. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-003, HLO-004
+
+\vspace{0.5em}
+
+\textbf{REQ-Ph-04} \\
+\textbf{Description:} The subsystem shall support secure wireless communication with the main PowerStake controller. \\
+\textbf{Rationale:} Enables reliable transfer of monitoring data and recommendations between system components. \\
+\textbf{Traced From:} HLO-004, HLO-005
 
 \vspace{0.5em}
 
@@ -194,35 +203,42 @@ The following subsystem requirements were developed for the PowerStake AI Decisi
 \textbf{REQ-F-01} \\
 \textbf{Description:} The AI subsystem shall receive appliance voltage, current, and power data at intervals of 1 second or less. \\
 \textbf{Rationale:} Provides timely data for near real-time analysis and decision generation. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-001, HLO-004
 
 \vspace{0.5em}
 
 \textbf{REQ-F-02} \\
 \textbf{Description:} The AI subsystem shall identify prolonged standby power consumption events. \\
 \textbf{Rationale:} Supports reduction of unnecessary electricity costs caused by vampire power loads. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-002, HLO-004
 
 \vspace{0.5em}
 
 \textbf{REQ-F-03} \\
 \textbf{Description:} The AI subsystem shall detect abnormal appliance behaviour relative to stored historical patterns. \\
 \textbf{Rationale:} Enables early identification of appliance degradation or potential faults. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-003, HLO-004
 
 \vspace{0.5em}
 
 \textbf{REQ-F-04} \\
 \textbf{Description:} The AI subsystem shall generate fault alerts and energy-saving recommendations. \\
 \textbf{Rationale:} Converts raw monitoring data into actionable outputs for the user. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-002, HLO-003, HLO-004
 
 \vspace{0.5em}
 
 \textbf{REQ-F-05} \\
 \textbf{Description:} The AI subsystem shall transmit outputs to the mobile dashboard interface. \\
 \textbf{Rationale:} Ensures recommendations and alerts are visible to the end-user. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-004, HLO-005
+
+\vspace{0.5em}
+
+\textbf{REQ-F-06} \\
+\textbf{Description:} The AI subsystem shall support user override of recommended automated actions. \\
+\textbf{Rationale:} Maintains user control while preserving trust in automated decision-making. \\
+\textbf{Traced From:} HLO-004, HLO-005
 
 \vspace{0.5em}
 
@@ -231,14 +247,14 @@ The following subsystem requirements were developed for the PowerStake AI Decisi
 \textbf{REQ-Pe-01} \\
 \textbf{Description:} Fault alert outputs shall be considered useful in at least 80\% of prototype test scenarios. \\
 \textbf{Rationale:} Measures whether generated alerts are relevant and valuable to users. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-003, HLO-004
 
 \vspace{0.5em}
 
 \textbf{REQ-Pe-02} \\
 \textbf{Description:} Energy-saving recommendations shall be considered useful in at least 80\% of prototype test scenarios. \\
 \textbf{Rationale:} Validates that recommendations improve household decision-making. \\
-\textbf{Traced From:} HLO-004
+\textbf{Traced From:} HLO-002, HLO-004
 
 \vspace{0.5em}
 
@@ -254,23 +270,78 @@ The following subsystem requirements were developed for the PowerStake AI Decisi
 \textbf{Rationale:} Demonstrates practical household scalability for prototype testing. \\
 \textbf{Traced From:} HLO-004
 
+\vspace{0.5em}
+
+\textbf{REQ-Pe-05} \\
+\textbf{Description:} Dashboard notifications shall be delivered to the user within 2 seconds of alert generation. \\
+\textbf{Rationale:} Ensures timely communication of faults and recommended actions. \\
+\textbf{Traced From:} HLO-004, HLO-005
+
+
+\subsection{Requirements Traceability Matrix}
+
+Table~\ref{tab:traceability} summarises the relationship between subsystem requirements and the PowerStake High-Level Objectives (HLOs). This matrix demonstrates that each requirement supports one or more customer-driven system objectives and provides traceability between stakeholder needs and detailed subsystem design decisions.
+
+\begin{table}[H]
+    \caption{Requirements traceability matrix for the PowerStake AI subsystem}
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|p{2.8cm}|c|c|c|c|c|}
+\hline
+\textbf{Requirement ID} & \textbf{HLO-001} & \textbf{HLO-002} & \textbf{HLO-003} & \textbf{HLO-004} & \textbf{HLO-005} \\ \hline
+REQ-Ph-01 &  &  &  & X &  \\ \hline
+REQ-Ph-02 &  &  &  & X & X \\ \hline
+REQ-Ph-03 &  &  & X & X &  \\ \hline
+REQ-Ph-04 &  &  &  & X & X \\ \hline
+REQ-F-01  & X &  &  & X &  \\ \hline
+REQ-F-02  &  & X &  & X &  \\ \hline
+REQ-F-03  &  &  & X & X &  \\ \hline
+REQ-F-04  &  & X & X & X &  \\ \hline
+REQ-F-05  &  &  &  & X & X \\ \hline
+REQ-F-06  &  &  &  & X & X \\ \hline
+REQ-Pe-01 &  &  & X & X &  \\ \hline
+REQ-Pe-02 &  & X &  & X &  \\ \hline
+REQ-Pe-03 &  &  &  & X &  \\ \hline
+REQ-Pe-04 &  &  &  & X &  \\ \hline
+REQ-Pe-05 &  &  &  & X & X \\ \hline
+\end{tabular}
+\label{tab:traceability}
+\end{table}
+
+
 \subsection{Subsystem Architecture}
 
-The AI subsystem acts as the decision-making and analytics layer of the PowerStake platform. It receives appliance-level monitoring data from the power monitoring and 
-onboard circuitry subsystems through the residential Wi-Fi and cloud communication pathway. Its purpose is to convert raw electrical measurements into actionable outputs i
-ncluding fault alerts, energy-saving recommendations, and proposed automatic shutoff opportunities.
+The AI subsystem functions as the decision-making and analytics layer of the PowerStake platform. It receives appliance-level monitoring data from the 
+sensing and control subsystems through the residential Wi-Fi communication pathway. Its role is to convert raw electrical measurements into useful outputs 
+including fault alerts, energy-saving recommendations, and suggested automatic shutoff opportunities.
 
-As shown in Figure~\ref{fig:ai_subsystem_architecture}, the subsystem is divided into five functional stages: data ingestion, feature storage, model training, real-time 
-inference, and output delivery. Incoming measurements such as voltage, current, power draw, switching state, and usage timestamps are received and processed into useful 
-features including standby duration, inactivity periods, usage trends, and abnormal load changes.
+As shown in Figure~\ref{fig:ai_subsystem_architecture}, the subsystem consists of five stages: data ingestion, feature storage, model training, real-time inference, 
+and output delivery. Incoming measurements such as voltage, current, power draw, switching state, and timestamps are processed into useful indicators including standby 
+duration, inactivity periods, usage trends, and abnormal load changes \cite{Systemdesignhandbook}.
 
-The training layer supports refinement of analytical models using historical datasets. For the prototype stage, this may include rule-based logic or lightweight machine 
-learning methods. The inference layer applies the selected model in near real-time to classify appliance behaviour and generate user-facing decisions.
+For the prototype stage, the training layer may use rule-based logic or lightweight machine learning approaches. The inference layer applies the selected model in near 
+real-time to classify appliance behaviour and generate user-facing recommendations \cite{tensorflowlite}.
 
-Outputs are delivered to the mobile dashboard, where users can review recommendations, receive alerts, and manually override suggested actions. User feedback may 
-also be captured to support future model improvement.
+Outputs are delivered to the mobile dashboard, allowing users to review recommendations, receive alerts, and manually override suggested actions. User feedback may 
+also be stored to improve future model performance. This subsystem provides the core intelligence of PowerStake by linking appliance behaviour with practical household 
+energy decisions \cite{Systemdesignhandbook}.
 
-The AI subsystem provides the core intelligence of PowerStake by linking monitored appliance behaviour to practical household energy decisions.
+
+% The AI subsystem acts as the decision-making and analytics layer of the PowerStake platform. It receives appliance-level monitoring data from the power monitoring and 
+% onboard circuitry subsystems through the residential Wi-Fi and cloud communication pathway. Its purpose is to convert raw electrical measurements into actionable outputs i
+% ncluding fault alerts, energy-saving recommendations, and proposed automatic shutoff opportunities.
+
+% As shown in Figure~\ref{fig:ai_subsystem_architecture}, the subsystem is divided into five functional stages: data ingestion, feature storage, model training, real-time 
+% inference, and output delivery. Incoming measurements such as voltage, current, power draw, switching state, and usage timestamps are received and processed into useful 
+% features including standby duration, inactivity periods, usage trends, and abnormal load changes.
+
+% The training layer supports refinement of analytical models using historical datasets. For the prototype stage, this may include rule-based logic or lightweight machine 
+% learning methods. The inference layer applies the selected model in near real-time to classify appliance behaviour and generate user-facing decisions.
+
+% Outputs are delivered to the mobile dashboard, where users can review recommendations, receive alerts, and manually override suggested actions. User feedback may 
+% also be captured to support future model improvement.
+
+% The AI subsystem provides the core intelligence of PowerStake by linking monitored appliance behaviour to practical household energy decisions.
 
 \begin{figure}[H]
     \centering
@@ -285,11 +356,14 @@ The AI subsystem provides the core intelligence of PowerStake by linking monitor
 
 \subsection{Trade Studies}
 
-\textbf{NEED TO LOOK INOT }
 
-A trade study was conducted to determine the most suitable analytical approach for the PowerStake AI subsystem. The subsystem is required to analyse power monitoring data to identify appliance malfunctions, detect power-saving opportunities, and recommend automatic shutoff actions. For the current prototype stage, the preferred solution needed to be accurate enough to demonstrate value, while remaining practical to implement with limited data, modest computational resources, and a short development timeframe.
+A trade study was conducted to determine the most suitable analytical approach for the PowerStake AI subsystem. The subsystem is required to 
+analyse power monitoring data to identify appliance malfunctions, detect power-saving opportunities, and recommend automatic shutoff actions.
+ For the current prototype stage, the preferred solution needed to be accurate enough to demonstrate value, while remaining practical to implement 
+ with limited data, modest computational resources, and a short development timeframe.
 
-Three candidate approaches were evaluated: (1) rule-based thresholding, (2) classical machine learning, and (3) lightweight deep learning. These options were compared based on fault detection capability, data requirement, computational demand, interpretability, and prototype suitability.
+Three candidate approaches were evaluated: (1) rule-based thresholding, (2) classical machine learning, and (3) lightweight deep learning. 
+These options were compared based on fault detection capability, data requirement, computational demand, interpretability, and prototype suitability.
 
 \begin{table}[H]
 \centering
@@ -297,9 +371,9 @@ Three candidate approaches were evaluated: (1) rule-based thresholding, (2) clas
 \begin{tabular}{|p{2cm}|p{4cm}|p{2cm}|p{3cm}|p{2cm}|}
 \hline
 \textbf{Option} & \textbf{Description} & \textbf{Data Requirement} & \textbf{Computational Demand} & \textbf{Suitability} \\ \hline
-Rule-Based Thresholding & Fixed rules using power, current, and inactivity duration & Low & Low & High \\ \hline
-Classical Machine Learning & Feature-based classification using engineered inputs & Medium & Medium & Medium \\ \hline
-Lightweight Deep Learning & Learns temporal patterns directly from power traces & High & High & Low \\ \hline
+Rule-Based Thresholding & Fixed rules using power, current, and inactivity duration \cite{Systemdesignhandbook} & Low & Low & High \\ \hline
+Classical Machine Learning & Feature-based classification using engineered inputs \cite{ibmanomalydetection} & Medium & Medium & Medium \\ \hline
+Lightweight Deep Learning & Learns temporal patterns directly from power traces \cite{tensorflowlite} & High & High & Low \\ \hline
 \end{tabular}
 \caption{Initial comparison of AI modelling approaches}
 \label{tab:ai_options}
@@ -362,9 +436,18 @@ suitability for demonstrating the AI subsystem value proposition.
 
 
 
+HLO-004—Automatic Power-off Schedules  
+A user-defined schedule will be configured through the system to automatically turn off a selected outlet (e.g. daily at 11:00 pm). The connected appliance will remain active prior to the scheduled time. The PowerStake system must execute the scheduled command and disconnect power to the outlet at the specified time.
+
+The system will be tested over multiple scheduling cycles to verify reliability and timing accuracy. The test is successful if the outlet is turned off within the acceptable time window of the scheduled event and operates consistently across repeated trials.
 
 
 
+
+HLO-004—Automatic Power-off Schedules
+Criterion 4.1: The system shall execute scheduled power-off events within ±30 seconds of the specified time.
+Criterion 4.2: The system shall successfully complete scheduled power-off operations for ≥95% of scheduled events over a minimum of 10 test cycles.
+Criterion 4.3: The system shall correctly maintain and execute user-defined schedules without failure or missed events during continuous operation.
 
 
 
