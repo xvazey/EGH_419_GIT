@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  23 APR 2026 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  24 APR 2026 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1140,82 +1140,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--291
 
 
 [3]
-<sysarch4.png, id=84, 1699.34875pt x 932.48375pt>
-File: sysarch4.png Graphic file (type png)
-<use sysarch4.png>
-Package pdftex.def Info: sysarch4.png  used on input line 348.
-(pdftex.def)             Requested size: 455.24411pt x 249.7962pt.
-<sysarch3.png, id=86, 1696.3375pt x 934.49126pt>
-File: sysarch3.png Graphic file (type png)
-<use sysarch3.png>
-Package pdftex.def Info: sysarch3.png  used on input line 349.
-(pdftex.def)             Requested size: 455.24411pt x 250.79028pt.
+<sysarch5.png, id=84, 1532.72626pt x 610.53094pt>
+File: sysarch5.png Graphic file (type png)
+<use sysarch5.png>
+Package pdftex.def Info: sysarch5.png  used on input line 348.
+(pdftex.def)             Requested size: 455.24411pt x 181.33476pt.
 
 
 [4]
-Underfull \hbox (badness 2961) in paragraph at lines 373--373
+Underfull \hbox (badness 2961) in paragraph at lines 372--372
 []|\OT1/cmr/bx/n/10.95 Data Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\OT1/cmr/bx/n/10.95 Computational
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
 []|\OT1/cmr/m/n/10.95 Rule-Based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
 \OT1/cmr/m/n/10.95 Thresh-old-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 []|\OT1/cmr/m/n/10.95 Classical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 \OT1/cmr/m/n/10.95 Ma-chine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 []|\OT1/cmr/m/n/10.95 Feature-based clas-si-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--376
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []|\OT1/cmr/m/n/10.95 Lightweight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--376
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 \OT1/cmr/m/n/10.95 Deep
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 376--376
+Underfull \hbox (badness 3769) in paragraph at lines 375--375
 []|\OT1/cmr/m/n/10.95 Learns tem-po-ral pat-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--376
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 \OT1/cmr/m/n/10.95 terns di-rectly from
  []
 
 
-
-[5 <./sysarch4.png> <./sysarch3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 []|\OT1/cmr/m/n/10.95 Rule-Based
  []
 
 
-Overfull \hbox (1.42026pt too wide) in paragraph at lines 405--405
+
+[5 <./sysarch5.png>]
+Overfull \hbox (1.42026pt too wide) in paragraph at lines 404--404
 \OT1/cmr/m/n/10.95 sign Hand-book, Ac-cessed: 2026. [On-line]. Avail-able: []$\OT1/cmtt/m/n/10.95 https : / / www . systemdesignhandbook .
  []
 
@@ -1233,17 +1228,17 @@ Package logreq Info: Writing requests to 'Assessment.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44439 strings out of 473523
- 944765 string characters out of 5714630
- 1734242 words of memory out of 5000000
- 67071 multiletter control sequences out of 15000+600000
+ 44427 strings out of 473523
+ 944438 string characters out of 5714630
+ 1733174 words of memory out of 5000000
+ 67060 multiletter control sequences out of 15000+600000
  566123 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,101p,803b,1362s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Assessment.pdf (7 pages, 1740674 bytes).
+Output written on Assessment.pdf (7 pages, 240826 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

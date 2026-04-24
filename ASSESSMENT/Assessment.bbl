@@ -83,28 +83,6 @@
       \verb https://www.tensorflow.org/lite
       \endverb
     \endentry
-    \entry{chatgptfigure2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=0523b13262b12c215d8009938f5c14f1}{%
-           family={OpenAI},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
-      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{AI-generated image created for report use on 17 April 2026}
-      \field{title}{System Architecture Figure Generated Using ChatGPT}
-      \field{year}{2026}
-    \endentry
     \entry{ibmanomalydetection}{online}{}{}
       \name{author}{1}{}{%
         {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%

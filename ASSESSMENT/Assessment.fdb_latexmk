@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber Assessment"] 1776944360.72891 "Assessment.bcf" "Assessment.bbl" "Assessment" 1776944621.80766 0
-  "Assessment.bcf" 1776944621 108413 d46108bcdcd618be62c42f2de1c03df8 "pdflatex"
+["biber Assessment"] 1776995886.86118 "Assessment.bcf" "Assessment.bbl" "Assessment" 1776995893.84224 0
+  "Assessment.bcf" 1776995893 108419 dfe77d0591935347a548c35c959c2cb4 "pdflatex"
   "references.bib" 1776943811 3331 69668bdbfe1203934ab793011f90f851 ""
   (generated)
   "Assessment.bbl"
   "Assessment.blg"
   (rewritten before read)
-["pdflatex"] 1776944619.42092 "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" "Assessment.pdf" "Assessment" 1776944621.80836 0
-  "Assessment.aux" 1776944621 3427 5e31d8a7da0033d2a1bdf4320845772f "pdflatex"
-  "Assessment.bbl" 1776944362 5790 40d5999237cd90d5bd30dfb4ef7a43c3 "biber Assessment"
-  "Assessment.out" 1776944621 1303 c43b77e372c25fc58aab9ef83170230c "pdflatex"
-  "Assessment.run.xml" 1776944621 2474 81701847505f75f320818744ad8ef84c "pdflatex"
-  "Assessment.tex" 1776944614 34687 92eb97b6a4b47fd71e989802d0fc33e9 ""
+["pdflatex"] 1776995891.56564 "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" "Assessment.pdf" "Assessment" 1776995893.84305 0
+  "Assessment.aux" 1776995893 3361 c13302887102fe1d9a4a3857257e4222 "pdflatex"
+  "Assessment.bbl" 1776995888 4729 1867e6f9829ee1a3cd689d9736bcf311 "biber Assessment"
+  "Assessment.out" 1776995893 1303 c43b77e372c25fc58aab9ef83170230c "pdflatex"
+  "Assessment.run.xml" 1776995893 2474 81701847505f75f320818744ad8ef84c "pdflatex"
+  "Assessment.tex" 1776995878 34636 cd541368882c7da6a624ada590ff54c7 ""
   "C:/Users/xanth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776315006 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/xanth/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1740729399 12015783 b645850e3206c86fd4b20af0590c7c24 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -230,9 +230,8 @@
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" 1776944614 34687 92eb97b6a4b47fd71e989802d0fc33e9 ""
-  "sysarch3.png" 1776819856 1153081 0e2f7feb32afc811f95c560233bcdd32 ""
-  "sysarch4.png" 1776820279 1023521 614b9742577eac24307931ff01b7c4fd ""
+  "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT/Assessment.tex" 1776995878 34636 cd541368882c7da6a624ada590ff54c7 ""
+  "sysarch5.png" 1776995828 198924 430a2ac5951859716e4fa85ce8b3d4b6 ""
   (generated)
   "Assessment.aux"
   "Assessment.bcf"
