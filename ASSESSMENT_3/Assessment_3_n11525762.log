@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  5 MAY 2026 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  5 MAY 2026 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1141,16 +1141,18 @@ l.177 \end{center}
                    [1]
 
 [2 <./2.png> <./3.png> <./4.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 189.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 197.
  (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 189.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 197.
  (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[3] (Assessment_3_n11525762.aux)
+[3]
+
+[4] (Assessment_3_n11525762.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1162,17 +1164,17 @@ Package logreq Info: Writing requests to 'Assessment_3_n11525762.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44212 strings out of 473523
- 939987 string characters out of 5714630
- 1725652 words of memory out of 5000000
+ 44213 strings out of 473523
+ 939993 string characters out of 5714630
+ 1726652 words of memory out of 5000000
  66853 multiletter control sequences out of 15000+600000
  566118 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,101p,817b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\xanth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Assessment_3_n11525762.pdf (4 pages, 333708 bytes).
+Output written on Assessment_3_n11525762.pdf (5 pages, 335164 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

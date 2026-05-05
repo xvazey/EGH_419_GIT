@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber Assessment_3_n11525762"] 1777958187.40231 "Assessment_3_n11525762.bcf" "Assessment_3_n11525762.bbl" "Assessment_3_n11525762" 1777958893.31594 0
-  "Assessment_3_n11525762.bcf" 1777958892 107427 ae8992ccb47e6541a74544c749179672 "pdflatex"
+["biber Assessment_3_n11525762"] 1777958187.40231 "Assessment_3_n11525762.bcf" "Assessment_3_n11525762.bbl" "Assessment_3_n11525762" 1777959141.47738 0
+  "Assessment_3_n11525762.bcf" 1777959141 107427 ae8992ccb47e6541a74544c749179672 "pdflatex"
   (generated)
   "Assessment_3_n11525762.bbl"
   "Assessment_3_n11525762.blg"
   (rewritten before read)
-["pdflatex"] 1777958891.23515 "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT_3/Assessment_3_n11525762.tex" "Assessment_3_n11525762.pdf" "Assessment_3_n11525762" 1777958893.3166 0
+["pdflatex"] 1777959139.47087 "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT_3/Assessment_3_n11525762.tex" "Assessment_3_n11525762.pdf" "Assessment_3_n11525762" 1777959141.47805 0
   "2.png" 1777958591 229043 91235938f6013482791aa0be9a61f298 ""
   "3.png" 1777958508 67304 1879bae396c0e0f90afbfc165e9f2824 ""
   "4.png" 1777958528 73877 7cf9f664027c774b9d2b1a06cb0256f9 ""
-  "Assessment_3_n11525762.aux" 1777958892 1181 6c0047b0e856245efe2d983555f44884 "pdflatex"
+  "Assessment_3_n11525762.aux" 1777959141 1181 05371e28c7f39326bd17bf311aa221b0 "pdflatex"
   "Assessment_3_n11525762.bbl" 1777958288 486 76d65a242ec496c9b4361af646ff12cb "biber Assessment_3_n11525762"
-  "Assessment_3_n11525762.out" 1777958892 866 e3e1cbe91d299ff1a40408a359e66e25 "pdflatex"
-  "Assessment_3_n11525762.run.xml" 1777958892 2558 701b3738807d6a2ce43ff6a0d1c76b08 "pdflatex"
-  "Assessment_3_n11525762.tex" 1777958889 10341 82979e05818b539ec7ff8e1a9fb27142 ""
+  "Assessment_3_n11525762.out" 1777959141 866 e3e1cbe91d299ff1a40408a359e66e25 "pdflatex"
+  "Assessment_3_n11525762.run.xml" 1777959141 2558 701b3738807d6a2ce43ff6a0d1c76b08 "pdflatex"
+  "Assessment_3_n11525762.tex" 1777959028 11258 7dfbb1d22b5f27c1e292a470492892dc ""
   "C:/Users/xanth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776315006 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/xanth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1741158942 12668 3f39aa1526266e7dc11332512187c117 ""
   "C:/Users/xanth/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1740729399 12015783 b645850e3206c86fd4b20af0590c7c24 ""
@@ -232,7 +232,7 @@
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/xanth/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT_3/Assessment_3_n11525762.tex" 1777958889 10341 82979e05818b539ec7ff8e1a9fb27142 ""
+  "c:/Users/xanth/Documents/UNIVERSITY/2026_Y4S1/EGH419_Adv_Design_Entrepreneurship/EGH_419_GIT/ASSESSMENT_3/Assessment_3_n11525762.tex" 1777959028 11258 7dfbb1d22b5f27c1e292a470492892dc ""
   (generated)
   "Assessment_3_n11525762.aux"
   "Assessment_3_n11525762.bcf"
