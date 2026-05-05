@@ -1,0 +1,263 @@
+% Clean, formal report-style document class and packages
+\documentclass[11pt, twoside, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, margin=2.5cm]{geometry}
+
+% Essential packages for a formal report
+\usepackage{mathtools, amsmath, amssymb, derivative}    % Math environments
+\usepackage{float, graphicx, booktabs, subcaption, array} % Figures and tables
+\usepackage{listings}                                    % Source code
+\usepackage{xcolor}                                     % Colors
+\usepackage{titlesec}                                   % Section formatting
+\usepackage{pdfpages}                                   % PDF inclusion
+\usepackage[style=ieee]{biblatex}                        % Bibliography
+\usepackage[hidelinks]{hyperref}                        % Links
+\usepackage{siunitx}                                    % SI units
+\usepackage[version=4]{mhchem}                          % Chemical formulae
+\usepackage{enumitem}                                   % List environments
+\usepackage{menukeys}                                   % Menu formatting
+\usepackage{tcolorbox}                                  % Boxed environments
+% \usepackage{caption}
+% \captionsetup[table]{position=top}
+
+% Bibliography resources
+\addbibresource{references.bib}
+\addbibresource{sample.bib}
+
+% Color definitions for code listings
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{1,1,1}
+
+% Code listing style
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=topbottom
+}
+\lstset{style=mystyle}
+
+% Custom box for outputs
+\newtcolorbox{outputbox}[1][]{
+    colback=white,
+    title=Output,
+    #1
+}
+
+% Math operators
+\DeclareMathOperator{\proj}{proj}
+
+% Custom column types
+\newcommand*{\carry}[1][1]{\overset{#1}}
+\newcolumntype{B}[1]{r*{#1}{@{\,}r}}
+
+% Formal report formatting
+\setlength{\parindent}{0pt}                             % No paragraph indentation
+\setlength{\parskip}{0.8em}                             % Space between paragraphs
+
+% Section spacing for formal reports
+\titlespacing*{\section}{0pt}{2.5ex plus 1ex minus 0.2ex}{1.3ex plus 0.2ex}
+\titlespacing*{\subsection}{0pt}{2.25ex plus 1ex minus 0.2ex}{1ex plus 0.2ex}
+\titlespacing*{\subsubsection}{0pt}{1.5ex plus 1ex minus 0.2ex}{0.75ex plus 0.1ex}
+
+% List formatting for formal reports
+\setlist[itemize]{leftmargin=*, itemsep=0.5em, topsep=0.5em}
+\setlist[enumerate]{leftmargin=*, itemsep=0.5em, topsep=0.5em}
+\setlist[itemize]{label=\textbullet}                    % Use bullets for lists
+\setlist[itemize,2]{label=\textendash}                  % En-dash for second level
+
+% Hide underfull warnings
+\raggedbottom
+
+% Custom theorem environments
+\newtheorem{definition}{Definition}
+
+% Custom commands for document information
+\newcommand{\TitleName}{Business Plan and Engineering Design Progress Report}
+\newcommand{\unitTime}{Semester 1, 2026}
+\newcommand{\unitName}{EGH419: Advanced Design and Entrepreneurship}
+\newcommand{\documentAuthors}{Xanthea Vazey: n11525762}
+
+\begin{document}
+% -------------------------------------------------
+%  Title Page
+% -------------------------------------------------
+\begin{titlepage}
+    \thispagestyle{empty}
+    \vspace*{0.2\textheight}
+    
+    \noindent
+    \begin{minipage}[t]{0.03\textwidth}
+        \rule[-25ex]{1pt}{140pt}   % longer vertical line
+    \end{minipage}
+    \hspace{1em}
+    \begin{minipage}[t]{0.9\textwidth}
+        \raggedright
+        \normalsize{\unitTime} \\[2ex]
+        \Huge\textbf{\TitleName} \\[2ex]
+        \normalsize{\unitName}
+    \end{minipage}
+    
+    \vfill
+    \begin{flushleft}
+        \documentAuthors
+    \end{flushleft}
+\end{titlepage}
+
+% Page numbering setup
+\pagenumbering{roman}
+\newpage
+\pagenumbering{arabic}
+
+% -------------------------------------------------
+%  Main Content
+% -------------------------------------------------
+
+\section{Product Name}
+
+\textbf{PowerStake}
+
+\textbf{Student Name:} Xanthea Vazey
+
+\section{Advanced Engineering Design}
+
+\subsection{Preliminary Design – Web Interface}
+
+The PowerStake web interface acts as the primary interaction point between the user and the system. It is responsible for presenting power monitoring data, AI-generated recommendations, and system alerts in a clear and accessible format. The interface supports the validation plans developed in Assessment 2 by allowing users to view system outputs and take action based on those outputs.
+
+The interface is implemented using a lightweight web-based dashboard approach, with Streamlit selected for the prototype. This decision was made due to its rapid development capability, direct integration with Python-based AI logic, and suitability for low TRL (TRL 3–4) systems where functionality is prioritised over production-level design.
+
+The core features of the interface include:
+\begin{itemize}
+    \item Real-time display of power usage data
+    \item Alerts for abnormal appliance behaviour
+    \item AI-generated energy-saving recommendations
+    \item Device-level monitoring overview
+    \item Manual override controls for switching actions
+\end{itemize}
+
+The system architecture for the interface follows a simple data flow:
+
+\begin{center}
+Power Monitoring → AI Subsystem → Web Interface → User Decision → System Control
+\end{center}
+
+This ensures that data collected from the hardware and processed by the AI subsystem is directly translated into actionable outputs for the user.
+
+From a feasibility perspective, the web interface is highly achievable within the project timeframe. The use of Streamlit removes the need for complex frontend/backend separation, allowing the interface to be developed alongside the AI subsystem. However, limitations include reduced scalability and limited customisation compared to full-stack web applications. These limitations are acceptable for a prototype-level implementation.
+
+The PowerStake web interface prototype is available at:
+
+\begin{center}
+\texttt{https://egh419assessment3.streamlit.app/}
+\end{center}
+
+Screenshots of the implemented interface are provided below to illustrate the dashboard layout, system outputs, and user interaction features.
+\begin{center}
+\includegraphics[width=1\textwidth]{2.png}
+% \includegraphics[width=0.8\textwidth]{1.png}
+\includegraphics[width=1\textwidth]{3.png}
+\includegraphics[width=1\textwidth]{4.png}
+% \includegraphics[width=0.8\textwidth]{5.png}
+\end{center}
+
+\subsection{Intellectual Property (IP)}
+•	Intellectual Property (IP) (300 max words) 
+o	Provide results of a search of related products’ patents, registered designs, and related IP-protected assets.
+o	Based on your preliminary design. determine one (1) asset that require IP protection in your product.
+o	Describe how you can protect each asset, e.g. Copyright, Circuit Layout rights, Design rights, Trade Secrets, Patents, etc.
+o	Create a table with a summary of the assets you want to protect, the type of protection, and the cost associated with it. 
+
+
+--
+
+A review of existing products such as TP-Link smart plugs and Belkin energy monitoring devices indicates that most current solutions focus on hardware control and data visualisation, with limited protection around intelligent energy decision-making systems.
+
+The key IP asset identified for PowerStake is the AI-based decision engine that converts raw power data into actionable recommendations. This includes logic related to detecting standby usage patterns, identifying abnormal behaviour, and generating automated suggestions.
+
+This asset is best protected through trade secrets and software copyright. Trade secrets are appropriate as the algorithmic logic can be kept confidential and is difficult to reverse engineer without access to the internal system. Copyright applies to the implementation of the software code and interface design.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{5cm}|p{4cm}|p{3cm}|}
+\hline
+\textbf{Asset} & \textbf{Protection Type} & \textbf{Estimated Cost} \\ \hline
+AI Decision Algorithm & Trade Secret & Low \\ \hline
+Software Code & Copyright & Low \\ \hline
+Interface Design & Design Rights & Medium \\ \hline
+\end{tabular}
+\caption{Summary of intellectual property protection strategies}
+\end{table}
+
+This approach ensures that the most valuable component of the system remains protected while minimising legal and financial overhead.
+
+
+\subsection{Risk Assessment}
+o	All team members describe 2 risks different from the other members of the team.
+o	Identify one (1) industry standards or regulations that might impact your product.
+o	Identify one (1) risks related to the operational, technical, financial or time feasibility of your product and undertake the risk assessment and management for them. Refer to tutorials in Week 7 and Week 9.
+--
+
+
+Two key risks associated with the web interface subsystem are identified.
+
+The first risk is usability risk. If the interface is too complex or unclear, users may ignore recommendations or fail to act on alerts. This directly reduces the effectiveness of the system. To mitigate this, the interface design prioritises simplicity, using clear visual indicators and minimal user interaction requirements.
+
+The second risk is data accuracy perception. If users perceive the displayed data or recommendations as incorrect, trust in the system will decrease. This risk is mitigated by clearly presenting data sources and ensuring consistency between displayed values and system outputs.
+
+A relevant industry consideration is data privacy and security. The system must ensure that user energy data is handled securely, particularly when transmitted over Wi-Fi networks. This aligns with general data protection practices and consumer device standards.
+
+A key feasibility risk is technical integration between the AI subsystem and the interface. Delays or errors in data transmission could result in outdated or incorrect recommendations. This is managed by using a simplified architecture and limiting dependencies between components during the prototype phase.
+
+
+\begin{thebibliography}{9}
+
+\bibitem{streamlit}
+Streamlit, “Streamlit Documentation,” Available: https://docs.streamlit.io/
+
+\bibitem{tplink}
+TP-Link, “Smart Plug Product Range,” Available: https://www.tp-link.com/
+
+\bibitem{belkin}
+Belkin, “Smart Home Energy Devices,” Available: https://www.belkin.com/
+
+\end{thebibliography}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

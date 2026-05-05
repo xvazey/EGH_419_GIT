@@ -1,0 +1,9 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Assessment_3_n11525762.blg'
+[182] biber-MSWIN64:340> INFO - === 
+[218] Biber.pm:420> INFO - Reading 'Assessment_3_n11525762.bcf'
+[297] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[307] bbl.pm:676> INFO - Writing 'Assessment_3_n11525762.bbl' with encoding 'UTF-8'
+[307] bbl.pm:779> INFO - Output to Assessment_3_n11525762.bbl
+[307] Biber.pm:131> WARN - The file 'Assessment_3_n11525762.bcf' does not contain any citations!
+[307] Biber.pm:133> INFO - WARNINGS: 1
