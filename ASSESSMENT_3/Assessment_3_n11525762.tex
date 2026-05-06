@@ -236,38 +236,39 @@ The risk assessment matrix (Figure~\ref{fig:riskassessment}) was applied by iden
 mitigation, and contingency response for each risk \cite{qutweek9risk}. 
 
 \begin{table}[H]
-\centering
-\caption{Web interface risk assessment}
-\begin{tabular}{|p{3.5cm}|p{5.8cm}|p{5.8cm}|}
-\hline
-\textbf{Risk Item} & \textbf{R1: Poor dashboard usability} & \textbf{R2: Delayed or outdated displayed data} \\ \hline
-
-\textbf{Risk Type} & Operational / customer adoption risk & Technical / operational feasibility risk \\ \hline
-
-\textbf{Nature} & The user may not understand or act on the dashboard outputs. & The web interface may display information that is not current. \\ \hline
-
-\textbf{Cause} & Too many alerts, unclear recommendation wording, poor layout, or confusing energy data visualisation. & Slow data refresh, unstable connection, cached values, or delayed communication between the AI subsystem and interface. \\ \hline
-
-\textbf{Risk Event} & Users ignore recommendations or misunderstand what action should be taken. & The dashboard shows outdated power data, device status, alerts, or recommendations. \\ \hline
-
-\textbf{Effect} & Reduced customer value, weaker prototype validation, and lower user trust in PowerStake. & Incorrect user decisions, reduced trust, and unreliable validation results. \\ \hline
-
-\textbf{Likelihood} & Possible (3) & Possible (3) \\ \hline
-
-\textbf{Impact} & Major (4) & Moderate (3) \\ \hline
-
-\textbf{Risk Score} & 12 -- High & 9 -- Moderate \\ \hline
-
-\textbf{Mitigation} & Use clear visual hierarchy, simple wording, limited high-priority alerts, and user testing during prototype validation. & Include last-updated timestamps, connection status, automatic refresh, and stale-data warnings. \\ \hline
-
-\textbf{Contingency} & Redesign the dashboard around fewer key outputs and retest with users before further validation. & Disable automated recommendations, show a warning message, and verify backend data before continuing testing. \\ \hline
-
-\end{tabular}
-\end{table}
+    \centering
+    \caption{Web interface risk assessment}
+    \begin{tabular}{|p{3.5cm}|p{5.8cm}|p{5.8cm}|}
+    \hline
+    \textbf{Risk Item} & \textbf{R1: Poor dashboard usability} & \textbf{R2: Delayed or outdated displayed data} \\ \hline
+    
+    \textbf{Risk Type} & Operational risk & Technical risk \\ \hline
+    
+    \textbf{Nature} & Users may not understand or act on the dashboard outputs. & The web interface may display information that is not current or reliable. \\ \hline
+    
+    \textbf{Cause} & Too many alerts, unclear recommendation wording, poor layout, or confusing energy data visualisation. & Slow data refresh, unstable network connection, cached values, or delayed communication between the AI subsystem and web interface. \\ \hline
+    
+    \textbf{Risk Event} & Users ignore recommendations or misunderstand what action should be taken. & The dashboard shows outdated power data, device status, alerts, or recommendations. \\ \hline
+    
+    \textbf{Effect} & Reduced customer value, weaker prototype validation, and lower user trust in PowerStake. & Incorrect user decisions, reduced trust, and unreliable validation results. \\ \hline
+    
+    \textbf{Likelihood} & Possible (3) & Possible (3) \\ \hline
+    
+    \textbf{Impact} & Major (4) & Moderate (3) \\ \hline
+    
+    \textbf{Risk Score} & High (12) & Moderate (9) \\ \hline
+    
+    \textbf{Mitigation} & Use clear visual hierarchy, simple wording, limited high-priority alerts, and user testing during prototype validation. & Include last-updated timestamps, connection status, automatic refresh, stale-data warnings, and timestamped data packets. \\ \hline
+    
+    \textbf{Contingency} & Redesign the dashboard around fewer key outputs and retest with users before further validation. & If live data cannot be verified, disable automated recommendations, display a stale-data warning, and check backend data before continuing testing. \\ \hline
+    
+    \end{tabular}
+    \end{table}
 These risks are most relevant to the TRL 3--4 prototype stage because the web interface must demonstrate that PowerStake outputs are understandable, 
 timely, and useful before further technical development or household pilot testing. Managing these risks improves both operational feasibility and the
  reliability of prototype validation.
-\printbibliography
+
+ \printbibliography
 
 
 
@@ -313,6 +314,62 @@ Generative AI was used as a support tool during the preparation of this report. 
 
 
 \end{document}
+
+
+
+
+% -------------------------------------------------
+% OR 
+% -------------------------------------------------
+
+\subsection{Risk Assessment}
+
+The PowerStake system creates risks related to both technical feasibility and customer adoption. A relevant regulation is the Australian Privacy Act 1988, including the Australian Privacy Principles, as household energy data may reveal user behaviour patterns such as appliance use, occupancy, and daily routines \cite{oaicprivacyprinciples}. The interface should also consider WCAG 2.2 accessibility guidance so that alerts, charts, and recommendations remain readable and usable for different users \cite{wcag22}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{7.png}
+    \caption{Risk assessment matrix}
+    \label{fig:riskassessment}
+\end{figure}
+
+The risk assessment matrix shown in Figure~\ref{fig:riskassessment} was applied by identifying the risk type, nature, cause, risk event, effect, likelihood, impact, risk score, mitigation, and contingency response for each risk \cite{qutweek9risk}. The two risks assessed below focus on network reliability and customer adoption.
+
+\begin{table}[H]
+\centering
+\caption{PowerStake risk assessment}
+\begin{tabular}{|p{3.3cm}|p{5.8cm}|p{5.8cm}|}
+\hline
+\textbf{Risk Item} & \textbf{R1: Network connection and latency} & \textbf{R2: Consumer apathy towards vampire loads} \\ \hline
+
+\textbf{Risk Type} & Technical risk & Market risk \\ \hline
+
+\textbf{Nature} & User hardware and operating environment may limit system performance. & Consumer ignorance and/or apathy towards the value proposition may limit adoption. \\ \hline
+
+\textbf{Cause} & Unreliable internet access may result in average bandwidth being lower than the data transmission requirements of PowerStake. & Consumers may be unaware of vampire power or may not believe that standby power costs are significant enough to justify purchasing the product. \\ \hline
+
+\textbf{Risk Event} & Data cannot be transferred as quickly as it is collected and processed. & Potential customers who could benefit from PowerStake choose not to purchase or use the product. \\ \hline
+
+\textbf{Effect} & Seven-day onboard storage may eventually become saturated, leading to unrecoverable live data loss and reduced reliability of system outputs. & Loss of revenue due to not capturing the full serviceable obtainable market. \\ \hline
+
+\textbf{Likelihood} & Possible (3) & Likely (4) \\ \hline
+
+\textbf{Impact} & Insignificant (1) & Moderate (3) \\ \hline
+
+\textbf{Risk Score} & Low (3) & High (10) \\ \hline
+
+\textbf{Mitigation} & Include temporary onboard data buffering, automatic reconnection, timestamped data packets, and a clear connection-status warning on the dashboard. & Educate users through the dashboard by showing estimated standby costs, yearly savings, and simple explanations of vampire loads. \\ \hline
+
+\textbf{Contingency} & If live data transfer fails, store data locally for later upload and notify the user that the dashboard is displaying delayed information. & If consumer interest remains low, reposition PowerStake around broader benefits such as bill reduction, appliance fault alerts, convenience, and automated control. \\ \hline
+
+\end{tabular}
+\end{table}
+
+These risks are relevant to the TRL 3--4 prototype stage because PowerStake must prove that data can be transferred reliably enough for user-facing recommendations and that customers understand the value of reducing standby power. Managing these risks improves both technical feasibility and market validation before further product development.
+
+
+
+
 
 
 
