@@ -88,7 +88,7 @@
 \newtheorem{definition}{Definition}
 
 % Custom commands for document information
-\newcommand{\TitleName}{Business Plan and Engineering Design Progress Report}
+\newcommand{\TitleName}{PowerStake: \\ Advanced Engineering Design}
 \newcommand{\unitTime}{Semester 1, 2026}
 \newcommand{\unitName}{EGH419: Advanced Design and Entrepreneurship}
 \newcommand{\documentAuthors}{Xanthea Vazey: n11525762}
@@ -128,53 +128,215 @@
 %  Main Content
 % -------------------------------------------------
 
-\section{Product Name}
 
-\textbf{PowerStake}
+\section{Preliminary Design -- Web Interface}
 
-\textbf{Student Name:} Xanthea Vazey
+The PowerStake web interface acts as the primary interaction point between the user and the system. It is responsible for presenting appliance-level power monitoring data, AI-generated recommendations, system alerts, and manual control options in a clear and accessible format. The interface supports the validation plans developed in Assessment 2 by allowing users to view system outputs and respond to recommendations during prototype testing.
 
-\section{Advanced Engineering Design}
-
-\subsection{Preliminary Design – Web Interface}
-
-The PowerStake web interface acts as the primary interaction point between the user and the system. It is responsible for presenting power monitoring data, AI-generated recommendations, and system alerts in a clear and accessible format. The interface supports the validation plans developed in Assessment 2 by allowing users to view system outputs and take action based on those outputs.
-
-The interface is implemented using a lightweight web-based dashboard approach, with Streamlit selected for the prototype. This decision was made due to its rapid development capability, direct integration with Python-based AI logic, and suitability for low TRL (TRL 3–4) systems where functionality is prioritised over production-level design.
+The interface was implemented using a lightweight web-based dashboard approach, with Streamlit selected for the prototype. Streamlit was chosen because it allows rapid dashboard development, integrates directly with Python-based AI logic, and is suitable for low TRL systems where functional validation is more important than production-level frontend development. This is appropriate for the current TRL 3--4 stage, where the purpose of the interface is to demonstrate system functionality and validate user interaction rather than deliver a fully commercial application.
 
 The core features of the interface include:
 \begin{itemize}
-    \item Real-time display of power usage data
-    \item Alerts for abnormal appliance behaviour
-    \item AI-generated energy-saving recommendations
-    \item Device-level monitoring overview
-    \item Manual override controls for switching actions
+    \item real-time display of appliance power usage data;
+    \item alerts for abnormal appliance behaviour;
+    \item AI-generated energy-saving recommendations;
+    \item device-level monitoring overview; and
+    \item manual override controls for switching actions.
 \end{itemize}
 
 The system architecture for the interface follows a simple data flow:
 
 \begin{center}
-Power Monitoring → AI Subsystem → Web Interface → User Decision → System Control
+Power Monitoring \(\rightarrow\) AI Subsystem \(\rightarrow\) Web Interface \(\rightarrow\) User Decision \(\rightarrow\) System Control
 \end{center}
 
-This ensures that data collected from the hardware and processed by the AI subsystem is directly translated into actionable outputs for the user.
+This ensures that data collected from the hardware and processed by the AI subsystem is translated into actionable outputs for the user. The web interface therefore provides the link between the technical monitoring system and the customer-facing value proposition of PowerStake.
 
-From a feasibility perspective, the web interface is highly achievable within the project timeframe. The use of Streamlit removes the need for complex frontend/backend separation, allowing the interface to be developed alongside the AI subsystem. However, limitations include reduced scalability and limited customisation compared to full-stack web applications. These limitations are acceptable for a prototype-level implementation.
+From a feasibility perspective, the web interface is achievable within the project timeframe because it avoids the need for complex frontend and backend separation. The use of Streamlit allows the dashboard to be developed alongside the AI subsystem using the same Python environment. However, limitations include reduced scalability, limited customisation, and the absence of production-level user authentication. These limitations are acceptable for a prototype-level implementation but would need to be addressed before commercial release.
 
 The PowerStake web interface prototype is available at:
 
 \begin{center}
 \texttt{https://egh419assessment3.streamlit.app/}
 \end{center}
+The interface design was developed to satisfy the key user-facing requirements of the PowerStake prototype: displaying live appliance-level power data, 
+presenting AI-generated recommendations, alerting users to abnormal appliance behaviour, and allowing manual override of suggested control actions. 
+The main design constraints were development time, low prototype cost, integration with Python-based analysis tools, and the need for a simple interface 
+that could be tested without a full mobile application backend.
 
-Screenshots of the implemented interface are provided below to illustrate the dashboard layout, system outputs, and user interaction features.
-\begin{center}
-\includegraphics[width=1\textwidth]{2.png}
-% \includegraphics[width=0.8\textwidth]{1.png}
-\includegraphics[width=1\textwidth]{3.png}
-\includegraphics[width=1\textwidth]{4.png}
-% \includegraphics[width=0.8\textwidth]{5.png}
-\end{center}
+
+Screenshots of the implemented interface are provided below to demonstrate the dashboard layout, system outputs, and user interaction features.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{2.png}
+    \caption{PowerStake web interface dashboard overview}
+    \label{fig:dashboardoverview}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{3.png}
+    \caption{PowerStake web interface system alert display}
+    \label{fig:systemoutputs}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{4.png}
+    \caption{PowerStake web interface recommendation and interaction features}
+    \label{fig:recommendations}
+\end{figure}
+
+
+\section{Intellectual Property (IP)}
+
+A preliminary IP search was conducted using Google Patents, IP Australia, and competitor product research. Existing smart plug and energy-monitoring 
+products, such as TP-Link and Belkin devices, already provide remote switching, scheduling, mobile control, and energy monitoring functions 
+\cite{tplink, belkin}. Related patents also show that device-state detection using smart plug power data and home energy monitoring/control systems are 
+already protected \cite{us11182699b2, us8996188b2, us10750252b2}. Therefore, PowerStake should not attempt to protect the broad concept of a smart plug 
+or connected power board.
+
+For this preliminary web interface design, the main asset requiring protection is the PowerStake dashboard and recommendation workflow. This includes 
+the Streamlit dashboard source code, screen layout, alert cards, recommendation panels, and the way AI-generated outputs are displayed to users. The 
+source code is automatically protected by copyright once created, as software code is treated as copyright-protected material in Australia 
+\cite{ipaustralia_softwarecopyright, businessvic_softwareip}. The visual layout may also be protected through design rights if the interface 
+becomes commercially distinctive. IP Australia states that registering a design costs a minimum of \$200 \cite{ipaustralia_designfees}. The PowerStake 
+name and logo should also be protected through trade mark registration before public release or crowdfunding, with standard applications starting from 
+\$250 per class using IP Australia's picklist system \cite{ipaustralia_trademarkfees}. 
+
+Trade secrets are also suitable for protecting unpublished recommendation ranking rules and interface logic, as these can be kept confidential through 
+private repositories, restricted access, and non-disclosure agreements.
+
+\begin{table}[H]
+\centering
+\caption{Recommended IP protection strategy for the PowerStake web interface}
+\begin{tabular}{|p{4cm}|p{3cm}|p{3cm}|p{5cm}|}
+\hline
+\textbf{Asset} & \textbf{Protection Type} & \textbf{Estimated Cost} & \textbf{Justification} \\ \hline
+Dashboard source code & Copyright & Automatic / low cost & Protects the original web interface implementation. \\ \hline
+Dashboard layout and screen design & Design rights & From \$200 & Protects the visual appearance of the interface. \\ \hline
+PowerStake name and logo & Trade mark & From \$250/class & Protects brand identity before launch. \\ \hline
+Recommendation display logic & Trade secret & Low internal cost & Protects confidential user-facing decision logic. \\ \hline
+\end{tabular}
+\end{table}
+
+\section{Risk Assessment}
+
+The PowerStake web interface creates risks related to user decision-making and the reliability of displayed information. A relevant regulation is the Australian Privacy Act 1988, including the Australian Privacy Principles, as household energy data may reveal user behaviour patterns such as occupancy, appliance use, and daily routines \cite{oaicprivacyprinciples}. The interface should also consider WCAG 2.2 accessibility guidance so that alerts, charts, and recommendations remain readable and usable for different users \cite{wcag22}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{7.png}
+    \caption{Risk assessment matrix}
+    \label{fig:riskassessment}
+\end{figure}
+
+The risk assessment matrix (Figure~\ref{fig:riskassessment}) was applied by identifying the nature, cause, risk event, effect, likelihood, impact, 
+mitigation, and contingency response for each risk \cite{qutweek9risk}. 
+
+\begin{table}[H]
+\centering
+\caption{Web interface risk assessment}
+\begin{tabular}{|p{3.5cm}|p{5.8cm}|p{5.8cm}|}
+\hline
+\textbf{Risk Item} & \textbf{R1: Poor dashboard usability} & \textbf{R2: Delayed or outdated displayed data} \\ \hline
+
+\textbf{Risk Type} & Operational / customer adoption risk & Technical / operational feasibility risk \\ \hline
+
+\textbf{Nature} & The user may not understand or act on the dashboard outputs. & The web interface may display information that is not current. \\ \hline
+
+\textbf{Cause} & Too many alerts, unclear recommendation wording, poor layout, or confusing energy data visualisation. & Slow data refresh, unstable connection, cached values, or delayed communication between the AI subsystem and interface. \\ \hline
+
+\textbf{Risk Event} & Users ignore recommendations or misunderstand what action should be taken. & The dashboard shows outdated power data, device status, alerts, or recommendations. \\ \hline
+
+\textbf{Effect} & Reduced customer value, weaker prototype validation, and lower user trust in PowerStake. & Incorrect user decisions, reduced trust, and unreliable validation results. \\ \hline
+
+\textbf{Likelihood} & Possible (3) & Possible (3) \\ \hline
+
+\textbf{Impact} & Major (4) & Moderate (3) \\ \hline
+
+\textbf{Risk Score} & 12 -- High & 9 -- Moderate \\ \hline
+
+\textbf{Mitigation} & Use clear visual hierarchy, simple wording, limited high-priority alerts, and user testing during prototype validation. & Include last-updated timestamps, connection status, automatic refresh, and stale-data warnings. \\ \hline
+
+\textbf{Contingency} & Redesign the dashboard around fewer key outputs and retest with users before further validation. & Disable automated recommendations, show a warning message, and verify backend data before continuing testing. \\ \hline
+
+\end{tabular}
+\end{table}
+These risks are most relevant to the TRL 3--4 prototype stage because the web interface must demonstrate that PowerStake outputs are understandable, 
+timely, and useful before further technical development or household pilot testing. Managing these risks improves both operational feasibility and the
+ reliability of prototype validation.
+\printbibliography
+
+
+
+\subsection{Generative AI}
+
+Generative AI was used as a support tool during the preparation of this report. It was used to assist with grammar, clarity, structure, and checking alignment with the assessment requirements. Final decisions, technical content, design choices, references, and report editing were completed by the author.
+\subsubsection*{General Prompts}
+\begin{itemize}
+    \item ``Can you check this writing for readability, sentence structure, and consistency while keeping my original technical meaning?''
+    \item ``Can you help tighten this paragraph so it reads more clearly in an engineering report style?''
+\end{itemize}
+
+\subsubsection*{Preliminary Design}
+\begin{itemize}
+    \item ``Can you review my web interface section and tell me whether it clearly covers what the prototype does, why it was built this way, and what its limitations are?''
+    \item ``Can you refine my explanation of the Streamlit dashboard so it sounds clearer but still reflects my own design choices?''
+\end{itemize}
+
+\subsubsection*{Intellectual Property}
+\begin{itemize}
+    \item ``Can you help shorten my competitor IP research so it stays focused on the dashboard and user interface rather than the full smart plug product?''
+    \item ``Can you convert the IP and product sources I used into BibTeX entries for my references file?''
+\end{itemize}
+
+\subsubsection*{Risk Assessment}
+\begin{itemize}
+    \item ``Can you suggest web-interface-related risks that are separate from my teammate's software and safety risks?''
+    \item ``Can you check whether my likelihood and impact scores make sense for dashboard usability and stale-data risks?''
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% -------------------------------------------------
+
+
 
 \subsection{Intellectual Property (IP)}
 •	Intellectual Property (IP) (300 max words) 
@@ -206,58 +368,3 @@ Interface Design & Design Rights & Medium \\ \hline
 
 This approach ensures that the most valuable component of the system remains protected while minimising legal and financial overhead.
 
-
-\subsection{Risk Assessment}
-o	All team members describe 2 risks different from the other members of the team.
-o	Identify one (1) industry standards or regulations that might impact your product.
-o	Identify one (1) risks related to the operational, technical, financial or time feasibility of your product and undertake the risk assessment and management for them. Refer to tutorials in Week 7 and Week 9.
---
-
-
-Two key risks associated with the web interface subsystem are identified.
-
-The first risk is usability risk. If the interface is too complex or unclear, users may ignore recommendations or fail to act on alerts. This directly reduces the effectiveness of the system. To mitigate this, the interface design prioritises simplicity, using clear visual indicators and minimal user interaction requirements.
-
-The second risk is data accuracy perception. If users perceive the displayed data or recommendations as incorrect, trust in the system will decrease. This risk is mitigated by clearly presenting data sources and ensuring consistency between displayed values and system outputs.
-
-A relevant industry consideration is data privacy and security. The system must ensure that user energy data is handled securely, particularly when transmitted over Wi-Fi networks. This aligns with general data protection practices and consumer device standards.
-
-A key feasibility risk is technical integration between the AI subsystem and the interface. Delays or errors in data transmission could result in outdated or incorrect recommendations. This is managed by using a simplified architecture and limiting dependencies between components during the prototype phase.
-
-
-\begin{thebibliography}{9}
-
-\bibitem{streamlit}
-Streamlit, “Streamlit Documentation,” Available: https://docs.streamlit.io/
-
-\bibitem{tplink}
-TP-Link, “Smart Plug Product Range,” Available: https://www.tp-link.com/
-
-\bibitem{belkin}
-Belkin, “Smart Home Energy Devices,” Available: https://www.belkin.com/
-
-\end{thebibliography}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\end{document}

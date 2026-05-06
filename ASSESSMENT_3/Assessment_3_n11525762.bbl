@@ -16,5 +16,390 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{tplink}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=78b1eccb296dc3a18191e1770801f5fd}{%
+           family={{TP-Link Technologies}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{78b1eccb296dc3a18191e1770801f5fd}
+      \strng{fullhash}{78b1eccb296dc3a18191e1770801f5fd}
+      \strng{fullhashraw}{78b1eccb296dc3a18191e1770801f5fd}
+      \strng{bibnamehash}{78b1eccb296dc3a18191e1770801f5fd}
+      \strng{authorbibnamehash}{78b1eccb296dc3a18191e1770801f5fd}
+      \strng{authornamehash}{78b1eccb296dc3a18191e1770801f5fd}
+      \strng{authorfullhash}{78b1eccb296dc3a18191e1770801f5fd}
+      \strng{authorfullhashraw}{78b1eccb296dc3a18191e1770801f5fd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Competitor smart plug products with mobile control, scheduling and monitoring features}
+      \field{title}{Smart Plug Product Range}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tp-link.com/au/home-networking/smart-plug/
+      \endverb
+      \verb{url}
+      \verb https://www.tp-link.com/au/home-networking/smart-plug/
+      \endverb
+    \endentry
+    \entry{belkin}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ac32cb3e705c9a45b9af9dfdf57bf1e}{%
+           family={{Belkin International}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \strng{fullhash}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \strng{fullhashraw}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \strng{bibnamehash}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \strng{authorbibnamehash}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \strng{authornamehash}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \strng{authorfullhash}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \strng{authorfullhashraw}{9ac32cb3e705c9a45b9af9dfdf57bf1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Competitor smart-home plug and connected device products}
+      \field{title}{Wemo Smart Plugs and Smart Home Products}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.belkin.com/products/wemo/
+      \endverb
+      \verb{url}
+      \verb https://www.belkin.com/products/wemo/
+      \endverb
+    \endentry
+    \entry{us11182699b2}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b5befcddeba9754d288c914ab6f91a60}{%
+           family={{Google Patents}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{fullhash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{fullhashraw}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{bibnamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorbibnamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authornamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorfullhash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorfullhashraw}{b5befcddeba9754d288c914ab6f91a60}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Patent relating to determining device state changes using smart plug power-monitoring signals}
+      \field{title}{US11182699B2: Determining Device State Changes Using Smart Plugs}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/US11182699/en
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/US11182699/en
+      \endverb
+    \endentry
+    \entry{us8996188b2}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b5befcddeba9754d288c914ab6f91a60}{%
+           family={{Google Patents}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{fullhash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{fullhashraw}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{bibnamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorbibnamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authornamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorfullhash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorfullhashraw}{b5befcddeba9754d288c914ab6f91a60}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Patent relating to household energy monitoring and control}
+      \field{title}{US8996188B2: System and Method for Home Energy Monitor and Control}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/US8996188B2/en
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/US8996188B2/en
+      \endverb
+    \endentry
+    \entry{us10750252b2}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b5befcddeba9754d288c914ab6f91a60}{%
+           family={{Google Patents}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{fullhash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{fullhashraw}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{bibnamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorbibnamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authornamehash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorfullhash}{b5befcddeba9754d288c914ab6f91a60}
+      \strng{authorfullhashraw}{b5befcddeba9754d288c914ab6f91a60}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Patent relating to identifying device state changes using power data and network data}
+      \field{title}{US10750252B2: Identifying Device State Changes Using Power Data and Network Data}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/US10750252B2/en
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/US10750252B2/en
+      \endverb
+    \endentry
+    \entry{ipaustralia_softwarecopyright}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=8fa96b2a2fc664b97023d5754732afa7}{%
+           family={{IP Australia}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{fullhash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{fullhashraw}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{bibnamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorbibnamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authornamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorfullhash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorfullhashraw}{8fa96b2a2fc664b97023d5754732afa7}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Explains that source code and executable code are automatically protected by copyright in Australia}
+      \field{title}{What Computer-Related Inventions Can Be Patented}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ipaustralia.gov.au/patents/what-are-patents/what-computer-related-inventions-can-be-patented
+      \endverb
+      \verb{url}
+      \verb https://www.ipaustralia.gov.au/patents/what-are-patents/what-computer-related-inventions-can-be-patented
+      \endverb
+    \endentry
+    \entry{businessvic_softwareip}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=cd9302fa1762c96db7046a1c16f9e5a8}{%
+           family={{Business Victoria}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \strng{fullhash}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \strng{fullhashraw}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \strng{bibnamehash}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \strng{authorbibnamehash}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \strng{authornamehash}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \strng{authorfullhash}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \strng{authorfullhashraw}{cd9302fa1762c96db7046a1c16f9e5a8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Explains that newly written software code is automatically protected by copyright}
+      \field{title}{4 Intellectual Property Considerations for Software Ownership}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://business.vic.gov.au/learning-and-advice/hub/4-intellectual-property-considerations-for-software-ownership
+      \endverb
+      \verb{url}
+      \verb https://business.vic.gov.au/learning-and-advice/hub/4-intellectual-property-considerations-for-software-ownership
+      \endverb
+    \endentry
+    \entry{ipaustralia_designfees}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=8fa96b2a2fc664b97023d5754732afa7}{%
+           family={{IP Australia}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{fullhash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{fullhashraw}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{bibnamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorbibnamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authornamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorfullhash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorfullhashraw}{8fa96b2a2fc664b97023d5754732afa7}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{States that registering a design in Australia costs a minimum of 200 Australian dollars}
+      \field{title}{Timeframes and Fees: Design Rights}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ipaustralia.gov.au/design-rights/timeframes-and-fees
+      \endverb
+      \verb{url}
+      \verb https://www.ipaustralia.gov.au/design-rights/timeframes-and-fees
+      \endverb
+    \endentry
+    \entry{ipaustralia_trademarkfees}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=8fa96b2a2fc664b97023d5754732afa7}{%
+           family={{IP Australia}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{fullhash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{fullhashraw}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{bibnamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorbibnamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authornamehash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorfullhash}{8fa96b2a2fc664b97023d5754732afa7}
+      \strng{authorfullhashraw}{8fa96b2a2fc664b97023d5754732afa7}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{States that a standard trade mark application with picklist costs 250 Australian dollars per class}
+      \field{title}{Trade Mark Timeframes and Fees}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ipaustralia.gov.au/trade-marks/timeframes-and-fees
+      \endverb
+      \verb{url}
+      \verb https://www.ipaustralia.gov.au/trade-marks/timeframes-and-fees
+      \endverb
+    \endentry
+    \entry{oaicprivacyprinciples}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3d8a6d3876112f65d1f80cd7a8974e02}{%
+           family={{Office of the Australian Information Commissioner}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \strng{fullhash}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \strng{fullhashraw}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \strng{bibnamehash}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \strng{authorbibnamehash}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \strng{authornamehash}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \strng{authorfullhash}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \strng{authorfullhashraw}{3d8a6d3876112f65d1f80cd7a8974e02}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Australian privacy framework under the Privacy Act 1988 relevant to handling personal information}
+      \field{title}{Australian Privacy Principles}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oaic.gov.au/privacy/australian-privacy-principles
+      \endverb
+      \verb{url}
+      \verb https://www.oaic.gov.au/privacy/australian-privacy-principles
+      \endverb
+    \endentry
+    \entry{wcag22}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdea812935506778c291249971f80655}{%
+           family={{World Wide Web Consortium}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdea812935506778c291249971f80655}
+      \strng{fullhash}{bdea812935506778c291249971f80655}
+      \strng{fullhashraw}{bdea812935506778c291249971f80655}
+      \strng{bibnamehash}{bdea812935506778c291249971f80655}
+      \strng{authorbibnamehash}{bdea812935506778c291249971f80655}
+      \strng{authornamehash}{bdea812935506778c291249971f80655}
+      \strng{authorfullhash}{bdea812935506778c291249971f80655}
+      \strng{authorfullhashraw}{bdea812935506778c291249971f80655}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessibility standard for designing readable and usable web interfaces}
+      \field{title}{Web Content Accessibility Guidelines 2.2}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/WCAG22/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/WCAG22/
+      \endverb
+    \endentry
+    \entry{qutweek9risk}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=80cc2f5bf5d1222fe93862baa08c1998}{%
+           family={{Queensland University of Technology}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{80cc2f5bf5d1222fe93862baa08c1998}
+      \strng{fullhash}{80cc2f5bf5d1222fe93862baa08c1998}
+      \strng{fullhashraw}{80cc2f5bf5d1222fe93862baa08c1998}
+      \strng{bibnamehash}{80cc2f5bf5d1222fe93862baa08c1998}
+      \strng{authorbibnamehash}{80cc2f5bf5d1222fe93862baa08c1998}
+      \strng{authornamehash}{80cc2f5bf5d1222fe93862baa08c1998}
+      \strng{authorfullhash}{80cc2f5bf5d1222fe93862baa08c1998}
+      \strng{authorfullhashraw}{80cc2f5bf5d1222fe93862baa08c1998}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Course workshop material outlining risk assessment method, likelihood-impact matrix, and risk management strategies}
+      \field{title}{EGH419 Week 9 Tutorial: IP Landscape and Strategy and Risk Assessment}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

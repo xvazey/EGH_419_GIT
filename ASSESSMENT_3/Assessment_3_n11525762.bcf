@@ -2374,6 +2374,18 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">sample.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">tplink</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">belkin</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">us11182699b2</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">us8996188b2</bcf:citekey>
+    <bcf:citekey order="2" intorder="3">us10750252b2</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">ipaustralia_softwarecopyright</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">businessvic_softwareip</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">ipaustralia_designfees</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">ipaustralia_trademarkfees</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">oaicprivacyprinciples</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">wcag22</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">qutweek9risk</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
@@ -2385,4 +2397,14 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="none/global//global/global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>

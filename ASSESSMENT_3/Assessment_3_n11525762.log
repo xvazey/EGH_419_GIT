@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  5 MAY 2026 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.28)  6 MAY 2026 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,65 +1116,133 @@ Package chemgreek Info: Activating mapping `default' on line 96.
 [1
 
 {C:/Users/xanth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<2.png, id=57, 1000.48781pt x 918.43124pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 150.
+ (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 150.
+ (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<2.png, id=53, 1000.48781pt x 918.43124pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
 Package pdftex.def Info: 2.png  used on input line 172.
 (pdftex.def)             Requested size: 455.24411pt x 417.90088pt.
-<3.png, id=59, 1720.92938pt x 371.88937pt>
-File: 3.png Graphic file (type png)
-<use 3.png>
-Package pdftex.def Info: 3.png  used on input line 174.
-(pdftex.def)             Requested size: 455.24411pt x 98.3743pt.
-<4.png, id=60, 1720.92938pt x 389.95688pt>
-File: 4.png Graphic file (type png)
-<use 4.png>
-Package pdftex.def Info: 4.png  used on input line 175.
-(pdftex.def)             Requested size: 455.24411pt x 103.15361pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \end{center}
+l.175 \end{figure}
                    [1]
+<3.png, id=61, 1720.92938pt x 371.88937pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 179.
+(pdftex.def)             Requested size: 455.24411pt x 98.3743pt.
+<4.png, id=62, 1720.92938pt x 389.95688pt>
+File: 4.png Graphic file (type png)
+<use 4.png>
+Package pdftex.def Info: 4.png  used on input line 186.
+(pdftex.def)             Requested size: 455.24411pt x 103.15361pt.
 
-[2 <./2.png> <./3.png> <./4.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 197.
- (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 197.
- (C:\Users\xanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
-[3]
+[2 <./2.png> <./3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]|\OT1/cmr/bx/n/10.95 Protection
+ []
 
-[4] (Assessment_3_n11525762.aux)
+
+Underfull \hbox (badness 1147) in paragraph at lines 218--218
+[]|\OT1/cmr/m/n/10.95 Protects the vi-sual ap-pear-
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10.95 PowerStake name and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[]|\OT1/cmr/m/n/10.95 Recommendation dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[]|\OT1/cmr/m/n/10.95 Protects con-fi-den-tial user-
+ []
+
+
+Overfull \hbox (21.54718pt too wide) in paragraph at lines 214--222
+ [][] 
+ []
+
+
+
+[3 <./4.png>]
+<7.png, id=99, 1678.01906pt x 663.98062pt>
+File: 7.png Graphic file (type png)
+<use 7.png>
+Package pdftex.def Info: 7.png  used on input line 230.
+(pdftex.def)             Requested size: 409.71692pt x 162.11436pt.
+
+Underfull \hbox (badness 2213) in paragraph at lines 249--249
+\OT1/cmr/m/n/10.95 com-mu-ni-ca-tion be-tween the AI
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 251--251
+[]|\OT1/cmr/m/n/10.95 The dash-board shows out-dated
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 253--253
+\OT1/cmr/m/n/10.95 pro-to-type val-i-da-tion, and lower
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 263--263
+[]|\OT1/cmr/m/n/10.95 Redesign the dash-board around
+ []
+
+
+Overfull \hbox (11.99263pt too wide) in paragraph at lines 241--266
+ [][] 
+ []
+
+
+
+[4 <./7.png>]
+
+[5]
+
+[6]
+
+[7] (Assessment_3_n11525762.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Assessment_3_n11525762.out' has not changed.
-(rerunfilecheck)             Checksum: E3E1CBE91D299FF1A40408A359E66E25;866.
+(rerunfilecheck)             Checksum: 65B261B582A70772DDACE05ECDBCB5B3;659.
 Package logreq Info: Writing requests to 'Assessment_3_n11525762.run.xml'.
 \openout1 = `Assessment_3_n11525762.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44213 strings out of 473523
- 939993 string characters out of 5714630
- 1726652 words of memory out of 5000000
- 66853 multiletter control sequences out of 15000+600000
- 566118 words of font info for 63 fonts, out of 8000000 for 9000
+ 44490 strings out of 473523
+ 946648 string characters out of 5714630
+ 1734742 words of memory out of 5000000
+ 67113 multiletter control sequences out of 15000+600000
+ 566464 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,101p,817b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\xanth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Assessment_3_n11525762.pdf (5 pages, 335164 bytes).
+ 99i,10n,101p,817b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\xanth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/xanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Assessment_3_n11525762.pdf (8 pages, 1877338 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
